@@ -1,0 +1,20 @@
+body {
+    margin: auto;
+}
+
+.main {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 60px;
+}
+
+iframe {
+    width: 50%;
+    height: 300px;
+}
+video {
+    width: 50%;
+    height: auto;
+}

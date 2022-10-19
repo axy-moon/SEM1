@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: grid;
+        place-items: center;
+        margin-top: 100px;
+    }
+    button {
+        width: 25%;
+        height: 80px;
+        border: none;
+        color: white;
+        background-color: rgb(70, 155, 70);
+    }
+
+    p {
+        font-size: 24px;
+    }
+</style>
+<body>
+
+    
+    <button onclick="show()">Click Me</button>
+    <p id="word"></p>
+</body>
+<script>
+    function show() {
+
+        var words = document.getElementById('word')
+        words.innerHTML = "Hello Everyone"
+
+
+    }
+</script>
+</html>
