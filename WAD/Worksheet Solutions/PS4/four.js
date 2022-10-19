@@ -8,7 +8,7 @@ for(i=0;i<5;i++)
         process.stdout.write(odd) //javascript method
     else
     process.stdout.write(even)
-        
+    console.log("Nagul")
 }
 
     console.log()
