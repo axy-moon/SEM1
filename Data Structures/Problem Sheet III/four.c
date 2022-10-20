@@ -6,26 +6,33 @@ int main() {
     char str[50];
     int count = 0;
     int len;
-    int i=1;
+    int i;
 
 
 
     printf("Enter the string: ");
     gets(str);
 
+    len = strlen(str);
 
-    while(str[i])
+
+    for(i=0;i<len;i++)
     {
-        if(str[i] != ' ')
+        /* if(str[i] != ' ')
         {
-            str[count] == str[i];
+            str[count] = str[i];
             count++;
              }
             
-            i++;
         }
     str[count] == '\0';
-    
+ */    
+        if(str[i] == ' ') {
+            if(str[i+1] == ' ') 
+                str[]
+        }
+
+    }
     printf("%s",str);
 
 }
