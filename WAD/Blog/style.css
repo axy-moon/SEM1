@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAF7F0;
+    font-family: 'Raleway','sans-serif';
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 50px 0 50px; */
+    width: 80%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+
+#twitter:hover {
+    color:#1DA1F2;
+}
+#instagram:hover {
+    color: #FD1D1D;
+}
+
+#github:hover {
+    color: grey;
+}
+
+h1 {
+	padding-top: 1px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/* h1 span{
+    color: cornflowerblue;
+}
+ */
+nav .navigation ul li {
+    list-style: none;
+	display: inline-block;
+	padding: 8px 18px;
+	position: relative;
+
+}
+
+nav  ul li::after {
+	content: '';
+	width:0%;
+	height: 2px;
+	background: darkblue;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+nav ul li:hover::after {
+	width: 100%;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+}
+
+.head {
+    text-align: center;
+    font-size: 24px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+}
+.left {
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.box h1 {
+    
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+    box-sizing: border-box;
+    padding-bottom: 18px;
+
+}
+
+.box p {
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+.social {
+    padding-top: 18px;
+}
+ .social i {
+
+    font-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.right {
+    display: grid;
+    place-items: center;
+}
+
+.main img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+
+/* display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap:1em; */
