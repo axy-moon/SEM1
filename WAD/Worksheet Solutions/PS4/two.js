@@ -1,4 +1,10 @@
-const n=100
+const n=5
+let sum = 0
 
-for(let i=1;i<=n;i++)
-console.log(i)
+console.log("Using For Loop\n")
+for(let i=1;i<=n;i++) 
+sum += i;
+
+console.log(sum);
+
+
