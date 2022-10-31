@@ -8,8 +8,6 @@ int main() {
     int len;
     int i;
 
-
-
     printf("Enter the string: ");
     gets(str);
 
@@ -18,21 +16,19 @@ int main() {
 
     for(i=0;i<len;i++)
     {
-        /* if(str[i] != ' ')
+        if(str[i] == ' ')
         {
-            str[count] = str[i];
             count++;
+            continue;
              }
+        if(count>1) {
+            printf(" %c",str[i]);
+            count=0;
+        }
+        else {
+            printf("%c",str[i]);
+        }
             
         }
-    str[count] == '\0';
- */    
-        if(str[i] == ' ') {
-            if(str[i+1] == ' ') 
-                str[]
-        }
-
-    }
-    printf("%s",str);
 
 }

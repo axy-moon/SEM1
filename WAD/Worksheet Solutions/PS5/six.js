@@ -1,9 +1,3 @@
-/*
-String trim()
-String charAt()
-String split()
-String replaceAll()
-*/
 
 //substring
 let str = "PSG COLLEGE OF TECHNOLOGY"
@@ -13,8 +7,16 @@ console.log(subString)
 //indexOf
 let message = "JavaScript";
 let index = message.indexOf("pt");
-let startBool = message.startsWith("J")
 console.log(index)
 
 //startswith
+let startBool = message.startsWith("J")
+console.log(startBool)
+
+//charAt
+console.log(`Character is at: ${message.charAt(2)}`)
+
+//replaceAll
+console.log(`Replaced String: ${message.replaceAll('Python','Javascript')}`)
+
 
