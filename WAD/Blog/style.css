@@ -5,8 +5,8 @@
 
 body {
     background-color: #FAF7F0;
-    font-family: 'Raleway','sans-serif';
     width: 90%;
+    font-family: 'Quicksand',sans-serif;
     margin: auto;
 }
 
@@ -37,13 +37,17 @@ nav {
 h1 {
 	padding-top: 1px;
     font-size: 22px;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
-/* h1 span{
-    color: cornflowerblue;
+ h1 span{
+    color: rgb(20 110 190);
+    font-family: 'Quicksand',sans-serif;
+    font-size: 30px;
+    font-weight: 400;
 }
- */
+ 
 nav .navigation ul li {
     list-style: none;
 	display: inline-block;
@@ -136,3 +140,47 @@ nav ul li:hover::after {
 /* display: grid;
   grid-template-columns: 70% 30%;
   grid-column-gap:1em; */
+
+
+  .sec-head  {
+        text-align: center;
+        font-weight: 600;
+        padding: 10px;
+  }
+
+
+#abt-head {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.abt-sec {
+    padding: 30px;
+}
+
+.ed-box {
+    border: 2px solid rgb(20 110 190);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 49%;
+    height: 240px;
+}
+
+.ed-box h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.ed-box p {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.ed-box p:last-child {
+    padding-bottom: 5px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
