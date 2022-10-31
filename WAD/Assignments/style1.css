@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Mono', sans-serif;
+}
+
+.joint h1 {
+    margin-top: 20px;
+}
+
+body {
+    background-image: url(purple-cartoon-scene-background.jpeg);
+}
+
+#chill,
+.city-box,
+.zi {
+    display: inline-flex;
+}
+
+.poi {
+    margin-left: 185px;
+}
+
+.ls {
+    margin-left: 150px;
+}
+
+.names-box1,
+.names-box2,
+#doc,
+#street,
+#city,
+#state,
+#Postcode,
+#Phone {
+    width: 200px;
+    border: 2px solid black;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fn,
+.io,
+.po {
+    font-size: 20px;
+}
+
+#names {
+    display: inline-flex;
+}
+
+.joint {
+    padding: 5px 5%;
+    margin: 20px;
+    max-width: 100%;
+    max-height: fit-content;
+    overflow: visible;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: rgb(165, 215, 89);
+}
+
+.wrapper {
+    display: inline-flex;
+    padding: 30px 20%;
+}
+
+.joint:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(164, 170, 221, 0.95), rgba(130, 120, 241, 0.95), rgba(118, 74, 238, 0.9), rgba(167, 128, 223, 0.85), rgba(180, 112, 228, 0.95));
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    align-items: center;
+    justify-content: flex-end;
+    background-color: transparent;
+    background-color: #79af6c;
+}
+
+.heading1 {
+    text-align: right;
+    color: rgb(7, 6, 3);
+    margin-left: 50px;
+}
+
+.btn-contact {
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 10px;
+    border: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flexbox;
+}
+
+.btn-contact::before {
+    transition: all 0.3s ease 0s;
+    background-color: red;
+}
+
+.btn-contact:hover {
+    transition: all 0.3s ease 0s;
+    background-color: red;
+}
+
+
+/* #lname {
+    border: none;
+    display: flexbox;
+}
+
+#fname {
+    padding: 10px;
+    display: flexbox;
+} */
+
+#btn-submit {
+    transition: all 0.3s ease 0s;
+    text-decoration: double;
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#btn-submit::before {
+    transition: all 0.3s ease 0s;
+}
+
+#btn-submit:hover {
+    transition: all 0.3s ease 0s;
+    background-color: red;
+}
+
+.fa-envelope-open {
+    margin-right: 5px;
+}
