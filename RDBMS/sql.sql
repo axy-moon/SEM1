@@ -3,7 +3,7 @@ create table employee(emp_no INT PRIMARY KEY,
                       lname VARCHAR (20) NOT NULL,
                       job_name VARCHAR (15),
                       MGR INT,
-                      DOB DATE CHECK(DOB<=TO_DATE('01-JAN-1975', 'DD-MON-YYYY')),
+                      DOB DATE CHECK(DOB< =TO_DATE('01-JAN-1975', 'DD-MON-YYYY')),
                       hireDate DATE,
                       salary DECIMAL CHECK(salary<100000 AND salary>20000),
                       comm DECIMAL
@@ -21,7 +21,15 @@ insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary) value
 insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary,comm) values (7521,'Mohanraj','Ramkumar','Salesman',7698,'12-FEB-74','12-FEB-04',21250,15000);
 
 insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary) values (7902,'Kumaran','Saravanan','Analyst Manager',7566,'12-MAR-69','22-MAR-08',33000);
+
+insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary) values (7369,'Shuruthi','Muthu','Clerk',7902,'12-JUL-68','12-JUL-08',21800);
+insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary) values (7788,'Rajan','Nadarajan','Analyst Manager',7566,'12-SEP-68','02-SEP-05',33000);
+insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary) values (7876,'Aravind','Ram','Clerk',7788,'07-OCT-68','17-MAR-04',21100);
+insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary) values (7934,'Ganesh','Ramanathan','Clerk',7782,'01-MAR-75','11-FEB-06',21300);
+insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary,comm) values (9015,'Annamalai','Ganesh','Salesman',7698,'12-DEC-1975','18-OCT-05',22900,14000);
+
+
 commit;
-
-
 SELECT * FROM employee;
+
+SELECT * from employee where 
