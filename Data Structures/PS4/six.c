@@ -10,7 +10,7 @@ int main() {
 
     printf("Enter the value of key: ");
     scanf("%d",&key);
-    
+
     int j;
     int temp;
 

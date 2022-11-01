@@ -1,0 +1,1265 @@
+Script started on Fri 28 Oct 2022 09:49:09 AM IST
+]0;22mx108@shavakpsg:~[?1034h[22mx108@shavakpsg ~]$ cd backup_22mx108/
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cat ~/pare[K[K[K[K22mx108/About-Me 
+I am Augxy Moon
+I am from Nagercoil.
+I currently pursuing my master's Degree in Computer Application at PSG College of Technology.
+I completed my UnderGraduate in PSG College of Arts and Science.
+I currently live in sowbaghya nager near comibatore international Airport 
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cat /home/22mx108/A[K22mx108/About-Me 
+I am Augxy Moon
+I am from Nagercoil.
+I currently pursuing my master's Degree in Computer Application at PSG College of Technology.
+I completed my UnderGraduate in PSG College of Arts and Science.
+I currently live in sowbaghya nager near comibatore international Airport 
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cat ../22mx108/About-Me 
+I am Augxy Moon
+I am from Nagercoil.
+I currently pursuing my master's Degree in Computer Application at PSG College of Technology.
+I completed my UnderGraduate in PSG College of Arts and Science.
+I currently live in sowbaghya nager near comibatore international Airport 
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cd ~
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ 
+[K[22mx108@shavakpsg ~]$ 
+[K[22mx108@shavakpsg ~]$ tree
+bash: tree: command not found
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls -r
+[0m[38;5;27mSEM1[0m           [38;5;27mbackup_22mx108[0m               [38;5;27m22mx108[0m
+script_backup  22mx108_Practice_Commands2
+[38;5;27mparent[0m         22mx108_Practice_Commands_1
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls -alr
+total 3096
+-rw-------    1 22mx108 22mx108     275 Oct 14 08:33 .Xauthority
+-rw-------    1 22mx108 22mx108    3548 Oct 28 08:50 .viminfo
+drwx------    2 22mx108 22mx108    4096 Sep 30 08:28 [0m[38;5;27m.ssh[0m
+drwxrwxr-x    2 22mx108 22mx108    4096 Oct 28 09:16 [38;5;27mSEM1[0m
+-rw-rw-r--    1 22mx108 22mx108 1537847 Oct 28 08:51 script_backup
+drwxrwxr-x    4 22mx108 22mx108    4096 Oct 28 08:47 [38;5;27mparent[0m
+drwxr-xr-x    4 22mx108 22mx108    4096 Apr 15  2015 [38;5;27m.mozilla[0m
+drwxr-xr-x    3 22mx108 22mx108    4096 Sep 30 09:29 [38;5;27m.gnome2[0m
+drwx------    3 22mx108 22mx108    4096 Oct 28 09:49 [38;5;27m.gconf[0m
+-rw-r--r--    1 22mx108 22mx108     500 May  7  2013 .emacs
+-rw-r--r--    1 22mx108 22mx108     124 Sep 30 09:27 .bashrc
+-rw-r--r--    1 22mx108 22mx108     176 Jul 18  2013 .bash_profile
+-rw-r--r--    1 22mx108 22mx108      18 Jul 18  2013 .bash_logout
+-rw-------    1 22mx108 22mx108    6139 Oct 28 09:44 .bash_history
+drwxrwxr-x    2 22mx108 22mx108    4096 Oct 28 09:44 [38;5;27mbackup_22mx108[0m
+-rw-rw-r--    1 22mx108 22mx108       0 Oct 28 09:49 22mx108_Practice_Commands2
+-rw-rw-r--    1 22mx108 22mx108 1537847 Oct 28 08:49 22mx108_Practice_Commands_1
+drwxrwxr-x    2 22mx108 22mx108    4096 Oct 28 09:44 [38;5;27m22mx108[0m
+drwxr-xr-x. 469 root    root      20480 Sep 30 08:41 [38;5;27m..[0m
+drwx------   10 22mx108 22mx108    4096 Oct 28 09:22 [38;5;27m.[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man ls
+[?1049h[?1h=
+LS(1)                            User Commands                            LS(1)
+
+[1mNAME[0m
+       ls - list directory contents
+
+[1mSYNOPSIS[0m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       List  information  about  the  FILEs (the current
+       directory by default).  Sort  entries  alphabeti-
+       cally if none of [1m-cftuvSUX[0m nor [1m--sort[0m.
+
+       Mandatory arguments to long options are mandatory
+       for short options too.
+
+       [1m-a[0m, [1m--all[0m
+              do not ignore entries starting with .
+
+       [1m-A[0m, [1m--almost-all[0m
+              do not list implied . and ..
+
+       [1m--author[0m
+              with [1m-l[0m, print the author of each file
+
+       [1m-b[0m, [1m--escape[0m
+              print octal escapes for nongraphic charac-
+              ters
+
+       [1m--block-size[0m=[4mSIZE[24m
+              use  SIZE-byte  blocks.   See  SIZE format
+              below
+
+       [1m-B[0m, [1m--ignore-backups[0m
+              do not list implied entries ending with ~
+
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-c[0m     with [1m-lt[0m: sort by, and show,  ctime  (time
+:[K
+[K [KESCESC[KOO[KBB
+[K              of last modification of file status infor-
+:[K
+[K [KESCESC[KOO[KBB
+[K              mation) with [1m-l[0m: show ctime  and  sort  by
+:[K
+[K [KESCESC[KOO[KBB
+[K              name otherwise: sort by ctime
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-C[0m     list entries by columns
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--color[0m[=[4mWHEN[24m]
+:[K
+[K [KESCESC[KOO[KBB
+[K              colorize  the  output.   WHEN  defaults to
+:[K
+[K [KESCESC[KOO[KBB
+[K              ‘always’ or  can  be  ‘never’  or  ‘auto’.
+:[K
+[K [KESCESC[KOO[KBB
+[K              More info below
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-d[0m, [1m--directory[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              list  directory  entries  instead  of con-
+:[K
+[K [KESCESC[KOO[KBB
+[K              tents, and  do  not  dereference  symbolic
+:[K
+[K [KESCESC[KOO[KBB
+[K              links
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-D[0m, [1m--dired[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              generate  output designed for Emacs’ dired
+:[K
+[K [KESCESC[KOO[KBB
+[K              mode
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-f[0m     do  not  sort,  enable  [1m-aU[0m,  disable  [1m-ls[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              [1m--color[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-F[0m, [1m--classify[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              append   indicator   (one  of  */=>@|)  to
+:[K
+[K [KESCESC[KOO[KBB
+[K              entries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--file-type[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              likewise, except do not append ‘*’
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--format[0m=[4mWORD[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m,  long
+:[K
+[K [KESCESC[KOO[KBB
+[K              [1m-l[0m, single-column [1m-1[0m, verbose [1m-l[0m, vertical
+:[K
+[K [KESCESC[KOO[KBB
+[K              [1m-C[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--full-time[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-g[0m     like [1m-l[0m, but do not list owner
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--group-directories-first[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              group directories before files.
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K              augment with a [1m--sort[0m option, but any  use
+:[K
+[K [KESCESC[KOO[KBB
+[K              of [1m--sort[0m=[4mnone[24m ([1m-U[0m) disables grouping
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-G[0m, [1m--no-group[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              in a long listing, don’t print group names
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-h[0m, [1m--human-readable[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              with [1m-l[0m, print  sizes  in  human  readable
+:[K
+[K [KESCESC[KOO[KBB
+[K              format (e.g., 1K 234M 2G)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--si[0m   likewise, but use powers of 1000 not 1024
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-H[0m, [1m--dereference-command-line[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              follow  symbolic  links listed on the com-
+:[K
+[K [KESCESC[KOO[KBB
+[K              mand line
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--dereference-command-line-symlink-to-dir[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              follow each  command  line  symbolic  link
+:[K
+[K [KESCESC[KOO[KBB
+[K              that points to a directory
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--hide[0m=[4mPATTERN[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              do not list implied entries matching shell
+:[K
+[K [KESCESC[KOO[KBB
+[K              PATTERN (overridden by [1m-a[0m or [1m-A[0m)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--indicator-style[0m=[4mWORD[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              append indicator with style WORD to  entry
+:[K
+[K [KESCESC[KOO[KBB
+[K              names:   none   (default),   slash   ([1m-p[0m),
+:[K
+[K [KESCESC[KOO[KBB
+[K              file-type ([1m--file-type[0m), classify ([1m-F[0m)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-i[0m, [1m--inode[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              print the index number of each file
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              do not list implied entries matching shell
+:[K
+[K [KESCESC[KOO[KBB
+[K              PATTERN
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-k[0m     like [1m--block-size[0m=[4m1K[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-l[0m     use a long listing format
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-L[0m, [1m--dereference[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              when  showing  file information for a sym-
+:[K
+[K [KESCESC[KOO[KBB
+[K              bolic link, show information for the  file
+:[K
+[K [KESCESC[KOO[KBB
+[K              the  link  references  rather than for the
+:[K
+[K [KESCESC[KOO[KBB
+[K              link itself
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-m[0m     fill width with a comma separated list  of
+:[K
+[K [KESCESC[KOO[KBB
+[K              entries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-n[0m, [1m--numeric-uid-gid[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              like  [1m-l[0m,  but list numeric user and group
+:[K
+[K [KESCESC[KOO[KBB
+[K              IDs
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-N[0m, [1m--literal[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              print raw entry names  (don’t  treat  e.g.
+:[K
+[K [KESCESC[KOO[KBB
+[K              control characters specially)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-o[0m     like [1m-l[0m, but do not list group information
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-p[0m, [1m--indicator-style[0m=[4mslash[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              append / indicator to directories
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-q[0m, [1m--hide-control-chars[0m
+:[K
+[K:[K
+[K[?1l>[?1049l]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man ls | grep -F ""r"e"c"u"r"s"i"v"e"
+              list subdirectories recursively
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man ls | grep -F "recursive"[1P"recursive"[1P"recursive"[1P"recursive"
+              list subdirectories recursively
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man ls | grep "recursive"-"recursive"n"recursive" "recursive"
+146:              list subdirectories recursively
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man ls
+[?1049h[?1h=
+LS(1)                            User Commands                            LS(1)
+
+[1mNAME[0m
+       ls - list directory contents
+
+[1mSYNOPSIS[0m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       List  information  about  the  FILEs (the current
+       directory by default).  Sort  entries  alphabeti-
+       cally if none of [1m-cftuvSUX[0m nor [1m--sort[0m.
+
+       Mandatory arguments to long options are mandatory
+       for short options too.
+
+       [1m-a[0m, [1m--all[0m
+              do not ignore entries starting with .
+
+       [1m-A[0m, [1m--almost-all[0m
+              do not list implied . and ..
+
+       [1m--author[0m
+              with [1m-l[0m, print the author of each file
+
+       [1m-b[0m, [1m--escape[0m
+              print octal escapes for nongraphic charac-
+              ters
+
+       [1m--block-size[0m=[4mSIZE[24m
+              use  SIZE-byte  blocks.   See  SIZE format
+              below
+
+       [1m-B[0m, [1m--ignore-backups[0m
+              do not list implied entries ending with ~
+
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-c[0m     with [1m-lt[0m: sort by, and show,  ctime  (time
+:[K
+[K [KESCESC[KOO[KBB
+[K              of last modification of file status infor-
+:[K
+[K [KESCESC[KOO[KBB
+[K              mation) with [1m-l[0m: show ctime  and  sort  by
+:[K
+[K [KESCESC[KOO[KBB
+[K              name otherwise: sort by ctime
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-C[0m     list entries by columns
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--color[0m[=[4mWHEN[24m]
+:[K
+[K [KESCESC[KOO[KBB
+[K              colorize  the  output.   WHEN  defaults to
+:[K
+[K [KESCESC[KOO[KBB
+[K              ‘always’ or  can  be  ‘never’  or  ‘auto’.
+:[K
+[K [KESCESC[KOO[KBB
+[K              More info below
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-d[0m, [1m--directory[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              list  directory  entries  instead  of con-
+:[K
+[K [KESCESC[KOO[KBB
+[K              tents, and  do  not  dereference  symbolic
+:[K
+[K [KESCESC[KOO[KBB
+[K              links
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-D[0m, [1m--dired[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              generate  output designed for Emacs’ dired
+:[K
+[K [KESCESC[KOO[KBB
+[K              mode
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-f[0m     do  not  sort,  enable  [1m-aU[0m,  disable  [1m-ls[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              [1m--color[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-F[0m, [1m--classify[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              append   indicator   (one  of  */=>@|)  to
+:[K
+[K [KESCESC[KOO[KBB
+[K              entries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--file-type[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              likewise, except do not append ‘*’
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--format[0m=[4mWORD[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m,  long
+:[K
+[K [KESCESC[KOO[KBB
+[K              [1m-l[0m, single-column [1m-1[0m, verbose [1m-l[0m, vertical
+:[K
+[K [KESCESC[KOO[KBB
+[K              [1m-C[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--full-time[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-g[0m     like [1m-l[0m, but do not list owner
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--group-directories-first[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              group directories before files.
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K              augment with a [1m--sort[0m option, but any  use
+:[K
+[K [KESCESC[KOO[KBB
+[K              of [1m--sort[0m=[4mnone[24m ([1m-U[0m) disables grouping
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-G[0m, [1m--no-group[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              in a long listing, don’t print group names
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-h[0m, [1m--human-readable[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              with [1m-l[0m, print  sizes  in  human  readable
+:[K
+[K [KESCESC[KOO[KBB
+[K              format (e.g., 1K 234M 2G)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--si[0m   likewise, but use powers of 1000 not 1024
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-H[0m, [1m--dereference-command-line[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              follow  symbolic  links listed on the com-
+:[K
+[K [KESCESC[KOO[KBB
+[K              mand line
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--dereference-command-line-symlink-to-dir[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              follow each  command  line  symbolic  link
+:[K
+[K [KESCESC[KOO[KBB
+[K              that points to a directory
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--hide[0m=[4mPATTERN[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              do not list implied entries matching shell
+:[K
+[K [KESCESC[KOO[KBB
+[K              PATTERN (overridden by [1m-a[0m or [1m-A[0m)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--indicator-style[0m=[4mWORD[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              append indicator with style WORD to  entry
+:[K
+[K [KESCESC[KOO[KBB
+[K              names:   none   (default),   slash   ([1m-p[0m),
+:[K
+[K [KESCESC[KOO[KBB
+[K              file-type ([1m--file-type[0m), classify ([1m-F[0m)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-i[0m, [1m--inode[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              print the index number of each file
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              do not list implied entries matching shell
+:[K
+[K [KESCESC[KOO[KBB
+[K              PATTERN
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-k[0m     like [1m--block-size[0m=[4m1K[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-l[0m     use a long listing format
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-L[0m, [1m--dereference[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              when  showing  file information for a sym-
+:[K
+[K [KESCESC[KOO[KBB
+[K              bolic link, show information for the  file
+:[K
+[K [KESCESC[KOO[KBB
+[K              the  link  references  rather than for the
+:[K
+[K [KESCESC[KOO[KBB
+[K              link itself
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-m[0m     fill width with a comma separated list  of
+:[K
+[K [KESCESC[KOO[KBB
+[K              entries
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-n[0m, [1m--numeric-uid-gid[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              like  [1m-l[0m,  but list numeric user and group
+:[K
+[K [KESCESC[KOO[KBB
+[K              IDs
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-N[0m, [1m--literal[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              print raw entry names  (don’t  treat  e.g.
+:[K
+[K [KESCESC[KOO[KBB
+[K              control characters specially)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-o[0m     like [1m-l[0m, but do not list group information
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-p[0m, [1m--indicator-style[0m=[4mslash[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              append / indicator to directories
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-q[0m, [1m--hide-control-chars[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              print ? instead of non graphic characters
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--show-control-chars[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              show non graphic characters as-is (default
+:[K
+[K [KESCESC[KOO[KBB
+[K              unless  program  is  ‘ls’  and output is a
+:[K
+[K [KESCESC[KOO[KBB
+[K              terminal)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-Q[0m, [1m--quote-name[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              enclose entry names in double quotes
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m--quoting-style[0m=[4mWORD[24m
+:[K
+[K [KESCESC[KOO[KBB
+[K              use quoting style WORD  for  entry  names:
+:[K
+[K [KESCESC[KOO[KBB
+[K              literal,  locale,  shell, shell-always, c,
+:[K
+[K [KESCESC[KOO[KBB
+[K              escape
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-r[0m, [1m--reverse[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              reverse order while sorting
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-R[0m, [1m--recursive[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              list subdirectories recursively
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       [1m-s[0m, [1m--size[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K              print the allocated size of each file,  in
+:[K
+[K[?1l>[?1049l]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man ls | grep -n "recursive"[3P"recursive"-F "recursive"[Kls -alr[C[KR
+.:
+total 3116
+drwx------   10 22mx108 22mx108    4096 Oct 28 09:22 [0m[38;5;27m.[0m
+drwxr-xr-x. 469 root    root      20480 Sep 30 08:41 [38;5;27m..[0m
+drwxrwxr-x    2 22mx108 22mx108    4096 Oct 28 09:44 [38;5;27m22mx108[0m
+-rw-rw-r--    1 22mx108 22mx108 1537847 Oct 28 08:49 22mx108_Practice_Commands_1
+-rw-rw-r--    1 22mx108 22mx108   20480 Oct 28 09:52 22mx108_Practice_Commands2
+drwxrwxr-x    2 22mx108 22mx108    4096 Oct 28 09:44 [38;5;27mbackup_22mx108[0m
+-rw-------    1 22mx108 22mx108    6139 Oct 28 09:44 .bash_history
+-rw-r--r--    1 22mx108 22mx108      18 Jul 18  2013 .bash_logout
+-rw-r--r--    1 22mx108 22mx108     176 Jul 18  2013 .bash_profile
+-rw-r--r--    1 22mx108 22mx108     124 Sep 30 09:27 .bashrc
+-rw-r--r--    1 22mx108 22mx108     500 May  7  2013 .emacs
+drwx------    3 22mx108 22mx108    4096 Oct 28 09:49 [38;5;27m.gconf[0m
+drwxr-xr-x    3 22mx108 22mx108    4096 Sep 30 09:29 [38;5;27m.gnome2[0m
+drwxr-xr-x    4 22mx108 22mx108    4096 Apr 15  2015 [38;5;27m.mozilla[0m
+drwxrwxr-x    4 22mx108 22mx108    4096 Oct 28 08:47 [38;5;27mparent[0m
+-rw-rw-r--    1 22mx108 22mx108 1537847 Oct 28 08:51 script_backup
+drwxrwxr-x    2 22mx108 22mx108    4096 Oct 28 09:16 [38;5;27mSEM1[0m
+drwx------    2 22mx108 22mx108    4096 Sep 30 08:28 [38;5;27m.ssh[0m
+-rw-------    1 22mx108 22mx108    3548 Oct 28 08:50 .viminfo
+-rw-------    1 22mx108 22mx108     275 Oct 14 08:33 .Xauthority
+
+./22mx108:
+total 12
+drwxrwxr-x  2 22mx108 22mx108 4096 Oct 28 09:44 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+-rw-rw-r--  1 22mx108 22mx108  271 Oct 28 09:37 About-Me
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:18 sample
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:18 test1.c
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:18 test2.c
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:18 test3.c
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:18 test.c
+
+./backup_22mx108:
+total 8
+drwxrwxr-x  2 22mx108 22mx108 4096 Oct 28 09:44 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:22 sample
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:22 test1.c
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:22 test2.c
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:22 test3.c
+-rw-rw-r--  1 22mx108 22mx108    0 Oct 28 09:22 test.c
+
+./.gconf:
+total 12
+drwx------  3 22mx108 22mx108 4096 Oct 28 09:49 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+drwx------  3 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27mdesktop[0m
+
+./.gconf/desktop:
+total 12
+drwx------ 3 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27m.[0m
+drwx------ 3 22mx108 22mx108 4096 Oct 28 09:49 [38;5;27m..[0m
+-rw------- 1 22mx108 22mx108    0 Sep 30 08:28 %gconf.xml
+drwx------ 3 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27mgnome[0m
+
+./.gconf/desktop/gnome:
+total 12
+drwx------ 3 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27m.[0m
+drwx------ 3 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27m..[0m
+drwx------ 2 22mx108 22mx108 4096 Oct 28 09:49 [38;5;27mbackground[0m
+-rw------- 1 22mx108 22mx108    0 Sep 30 08:28 %gconf.xml
+
+./.gconf/desktop/gnome/background:
+total 12
+drwx------ 2 22mx108 22mx108 4096 Oct 28 09:49 [38;5;27m.[0m
+drwx------ 3 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27m..[0m
+-rw------- 1 22mx108 22mx108  185 Oct 28 09:49 %gconf.xml
+
+./.gnome2:
+total 12
+drwxr-xr-x  3 22mx108 22mx108 4096 Sep 30 09:29 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+drwx------  2 22mx108 22mx108 4096 Sep 30 09:29 [38;5;27mkeyrings[0m
+
+./.gnome2/keyrings:
+total 12
+drwx------ 2 22mx108 22mx108 4096 Sep 30 09:29 [38;5;27m.[0m
+drwxr-xr-x 3 22mx108 22mx108 4096 Sep 30 09:29 [38;5;27m..[0m
+-rw------- 1 22mx108 22mx108  105 Sep 30 09:29 login.keyring
+
+./.mozilla:
+total 16
+drwxr-xr-x  4 22mx108 22mx108 4096 Apr 15  2015 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+drwxr-xr-x  2 22mx108 22mx108 4096 Aug 18  2010 [38;5;27mextensions[0m
+drwxr-xr-x  2 22mx108 22mx108 4096 Aug 18  2010 [38;5;27mplugins[0m
+
+./.mozilla/extensions:
+total 8
+drwxr-xr-x 2 22mx108 22mx108 4096 Aug 18  2010 [38;5;27m.[0m
+drwxr-xr-x 4 22mx108 22mx108 4096 Apr 15  2015 [38;5;27m..[0m
+
+./.mozilla/plugins:
+total 8
+drwxr-xr-x 2 22mx108 22mx108 4096 Aug 18  2010 [38;5;27m.[0m
+drwxr-xr-x 4 22mx108 22mx108 4096 Apr 15  2015 [38;5;27m..[0m
+
+./parent:
+total 16
+drwxrwxr-x  4 22mx108 22mx108 4096 Oct 28 08:47 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+drwxrwxr-x  2 22mx108 22mx108 4096 Oct 28 08:36 [38;5;27mDIR1[0m
+drwxrwxr-x  2 22mx108 22mx108 4096 Oct 28 09:41 [38;5;27mDIR2[0m
+
+./parent/DIR1:
+total 8
+drwxrwxr-x 2 22mx108 22mx108 4096 Oct 28 08:36 [38;5;27m.[0m
+drwxrwxr-x 4 22mx108 22mx108 4096 Oct 28 08:47 [38;5;27m..[0m
+
+./parent/DIR2:
+total 8
+drwxrwxr-x 2 22mx108 22mx108 4096 Oct 28 09:41 [38;5;27m.[0m
+drwxrwxr-x 4 22mx108 22mx108 4096 Oct 28 08:47 [38;5;27m..[0m
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 t1
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 t2
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 t3
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 t6
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 tt
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 tt5
+-rw-rw-r-- 1 22mx108 22mx108    0 Oct 28 08:39 tt6
+
+./SEM1:
+total 8
+drwxrwxr-x  2 22mx108 22mx108 4096 Oct 28 09:16 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+
+./.ssh:
+total 24
+drwx------  2 22mx108 22mx108 4096 Sep 30 08:28 [38;5;27m.[0m
+drwx------ 10 22mx108 22mx108 4096 Oct 28 09:22 [38;5;27m..[0m
+-rw-r--r--  1 22mx108 22mx108  809 Sep 30 09:27 authorized_keys
+-rw-------  1 22mx108 22mx108 1671 Sep 30 08:28 id_rsa
+-rw-r--r--  1 22mx108 22mx108  399 Sep 30 08:28 id_rsa.pub
+-rw-rw-r--  1 22mx108 22mx108 1437 Oct 28 08:57 known_hosts
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ clear
+[H[2J]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ mkdir summary ~/bakc[K[Kckup_22mx108/
+mkdir: cannot create directory `/home/22mx108/backup_22mx108/': File exists
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[38;5;27m22mx108[0m                      [38;5;27mbackup_22mx108[0m  [38;5;27mSEM1[0m
+22mx108_Practice_Commands_1  [38;5;27mparent[0m          [38;5;27msummary[0m
+22mx108_Practice_Commands2   script_backup
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd backup_22mx108/
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ ;s
+bash: syntax error near unexpected token `;'
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ ls
+sample  test1.c  test2.c  test3.c  test.c
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ 
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ mkdir summary/ ~/[K[K[K[K[K[K[K[K[K[K[K~/parent/[K[K[K[K[K[K[K22mx108/a[Kbac[K[K[K[K[K[K[K[K[K[K[Kbackup_22mx108/summ 
+ary
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ exit
+
+Script done on Fri 28 Oct 2022 09:55:56 AM IST
+Script started on Tue 01 Nov 2022 10:58:36 AM IST
+]0;22mx108@shavakpsg:~[?1034h[22mx108@shavakpsg ~]$ clear[K[K[K[K[Kod Ab[K[Kbackup_22mx108/About-Me 
+0000000 020111 066541 040440 063565 074570 046440 067557 027156
+0000020 044440 060440 020155 072543 071162 067145 066164 020171
+0000040 072560 071562 064565 063556 046440 071541 062564 071562
+0000060 067440 020146 067543 070155 072165 071145 040440 070160
+0000100 064554 060543 064564 067157 064412 020156 051520 020107
+0000120 047503 066154 063545 020145 063157 052040 061545 067150
+0000140 066157 063557 027171 044440 061440 066557 066160 072145
+0000160 062145 066440 020171 067165 062544 063562 060562 072544
+0000200 072141 067551 020156 060502 064143 066145 071157 020163
+0000220 063157 041440 066557 072560 062564 020162 061523 062551
+0000240 061556 005145 072141 070040 063563 061440 066157 062554
+0000260 062547 067440 020146 071141 071564 060440 062156 071440
+0000300 064543 067145 062543 020056 067516 020167 020111 072543
+0000320 071162 067145 066164 020171 064554 062566 067040 060545
+0000340 020162 067543 066551 060542 067564 062562 064440 072156
+0000360 071145 060556 064564 067157 066141 040440 071151 067560
+0000400 072162 005056 072502 020164 074555 047040 072101 073151
+0000420 020145 071551 067040 063541 071145 067543 066151 005056
+0000440 000012
+0000441
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ file Ab[K[Kbackup_22mx108/About-Me 
+backup_22mx108/About-Me: ASCII text
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ clear
+[H[2J]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+[?1034h2+5
+7
+125*34=[K+190-10
+4430
+()8)=)2)[1P)[1P)+)2)[C*10/25
+4
+^C
+(interrupt) Exiting bc.
+ ]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[38;5;27m22mx108[0m  22mx108_Practice_Commands_1  22mx108_Practice_Commands2  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  script_backup  [38;5;27mSEM1[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ clear
+[H[2J]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ man eh[Kcho
+[?1049h[?1h=
+ECHO(1)                          User Commands                         ECHO(1)
+
+[1mNAME[0m
+       echo - display a line of text
+
+[1mSYNOPSIS[0m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...
+       [1mecho[0m [4mLONG-OPTION[24m
+
+[1mDESCRIPTION[0m
+       Echo the STRING(s) to standard output.
+
+       [1m-n[0m     do not output the trailing newline
+
+       [1m-e[0m     enable interpretation of backslash escapes
+
+       [1m-E[0m     disable interpretation of backslash escapes (default)
+
+       [1m--help[0m display this help and exit
+
+       [1m--version[0m
+              output version information and exit
+
+       If [1m-e[0m is in effect, the following sequences are recognized:
+
+       \\     backslash
+
+       \a     alert (BEL)
+
+       \b     backspace
+
+       \c     produce no further output
+
+       \e     escape
+
+       \f     form feed
+
+:[K
+[K [KESCESC[KOO[KBB
+[K       \n     new line
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       \r     carriage return
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       \t     horizontal tab
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       \v     vertical tab
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       \0NNN  byte with octal value NNN (1 to 3 digits)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       \xHH   byte with hexadecimal value HH (1 to 2 digits)
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K       NOTE:  your  shell  may  have its own version of echo, which usually supersedes the version described
+:[K
+[K [KESCESC[KOO[KBB
+[K       here.  Please refer to your shell’s documentation for details about the options it supports.
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K[1mAUTHOR[0m
+:[K
+[K [KESCESC[KOO[KBB
+[K       Written by Brian Fox and Chet Ramey.
+:[K
+[K [KESCESC[KOO[KBB
+[K
+:[K
+[K [KESCESC[KOO[KBB
+[K[1mREPORTING[0m [1mBUGS[0m
+:[K
+[K[?1l>[?1049l]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo  [K-b[Ke ""A"u"g"x"y" "\"b" " " "M"o"o"n"\Moon"
+Augxy    \Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy \b   \Moon"bMoon"
+Augxy    Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy \b   \bMoon"[1P\bMoon"[1P\bMoon"[1P\bMoon" \bMoon"[1P
+Augxy Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy\b \bMoon"[C[1PMoon"[1PMoon"[1PMoon"[1PMoon"[1PMoon"\Moon"cMoon"
+Augxy]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy\cMoon"[1PMoon"nMoon" Moon"
+Augxy
+ Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy\n Moon"[1P Moon"t Moon"\ Moon"[1P Moon"
+Augxy	 Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy\t Moon"[1P Moon"v Moon"
+Augxy Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo -e "Augxy\v Moon"[C[C[1@ 
+Augxy  Moon
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ clear
+[H[2J]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ X=""H"I"
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ x
+bash: x: command not found
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo X
+X
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo X$X
+HI
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ clear
+[H[2J]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ Y=""H"e"l"l"o"
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ Z = ""E"L"C"[1P"[1P"[1P"W"E"L"C"O"M"E"
+bash: Z: command not found
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ Z = "WELCOME"[1P"WELCOME"[1P="WELCOME"
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo $X $Y $X[KZ
+HI Hello WELCOME
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ rm s[Kbackup_22mx108/s[Ks[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[38;5;27m22mx108[0m  22mx108_Practice_Commands_1  22mx108_Practice_Commands2  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  script_backup  [38;5;27mSEM1[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ rm [Kdir SEM1/
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd backup_22mx108/l[K
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ ls
+About-Me  sample  [0m[38;5;27msummary[0m  test1.c  test2.c  test3.c  test.c
+[m]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ rmdir summary/
+rmdir: failed to remove `summary/': Directory not empty
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ rmdir summary/[C[C[C[C[C[C[C[C[C[Ct[K*
+rmdir: failed to remove `summary/t1.txt.2012': Not a directory
+rmdir: failed to remove `summary/tt1.txt.2013': Not a directory
+rmdir: failed to remove `summary/tta.text.2014': Not a directory
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ rmdir summary/*[K[1P[1P[1P[C[1P summary/m summary/[C[C[C[C[C[C[C[C[C*
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ rmdir summary/
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls !/22[K[K[K[K~/22mx108/ -D t*
+ls: cannot access t*: No such file or directory
+/home/22mx108/22mx108/:
+sample  test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls ~/22mx108/ -D t*[C[1P t*[1P t*
+ls: cannot access t*: No such file or directory
+/home/22mx108/22mx108/:
+sample  test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+sample  test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls t**
+test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -l [K > [K[K[K[K[K[K[K[Ktouch MyDirec[K[K[K[K[K[K[K""M"y" "D"i"r"e"c"t"o"r"y"
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -l  > My\ Directory 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat M[K[K[K[K[Kcat m[KMy\ Directory 
+total 0
+-rw-rw-r-- 1 22mx108 22mx108 0 Nov  1 11:11 My Directory
+-rw-rw-r-- 1 22mx108 22mx108 0 Oct 28 09:18 sample
+-rw-rw-r-- 1 22mx108 22mx108 0 Oct 28 09:18 test1.c
+-rw-rw-r-- 1 22mx108 22mx108 0 Oct 28 09:18 test2.c
+-rw-rw-r-- 1 22mx108 22mx108 0 Oct 28 09:18 test3.c
+-rw-rw-r-- 1 22mx108 22mx108 0 Nov  1 10:50 test4.c
+-rw-rw-r-- 1 22mx108 22mx108 0 Oct 28 09:18 test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+My Directory  sample  test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd backup_22mx108/
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ ls
+About-Me  sample  test1.c  test2.c  test3.c  test.c
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ wc About-Me 
+  5  45 289 About-Me
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ wc -l `[K~/22mx108/a[K[K/*.c
+0 /home/22mx108/22mx108/test1.c
+0 /home/22mx108/22mx108/test2.c
+0 /home/22mx108/22mx108/test3.c
+0 /home/22mx108/22mx108/test4.c
+0 /home/22mx108/22mx108/test.c
+0 total
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cat Abo[K[K[K[K[K[K[Ktouch About-Me [K[K[KMyself
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cc[Kat About-Me > About-Myself 
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ chmod +[K000 ~/22mx108/*.c
+]0;22mx108@shavakpsg:~/backup_22mx108[22mx108@shavakpsg backup_22mx108]$ cd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+My Directory  sample  test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -l
+total 4
+-rw-rw-r-- 1 22mx108 22mx108 375 Nov  1 11:11 My Directory
+-rw-rw-r-- 1 22mx108 22mx108   0 Oct 28 09:18 sample
+---------- 1 22mx108 22mx108   0 Oct 28 09:18 test1.c
+---------- 1 22mx108 22mx108   0 Oct 28 09:18 test2.c
+---------- 1 22mx108 22mx108   0 Oct 28 09:18 test3.c
+---------- 1 22mx108 22mx108   0 Nov  1 10:50 test4.c
+---------- 1 22mx108 22mx108   0 Oct 28 09:18 test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear\\\\[K[K[K[K[K[K[K[K[Kchmod [K[K[K[K[K[Kls
+My Directory  sample  test1.c  test2.c  test3.c  test4.c  test.c
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod +[K-wr[K[K[K333 *
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+[0m[38;5;34mMy Directory[0m  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ chmos [K[Kd 33 22mx108
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ chmod 33 22mx1083 22mx108
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ toych[K[K[Kuh[Kch 22mx108/newfile
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[48;5;10;38;5;21m22mx108[0m  22mx108_Practice_Commands_1  22mx108_Practice_Commands2  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  script_backup
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+ls: cannot open directory .: Permission denied
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+ls: cannot open directory .: Permission denied
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ exit
+exit
+
+Script done on Tue 01 Nov 2022 11:19:08 AM IST

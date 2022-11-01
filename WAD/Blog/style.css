@@ -176,6 +176,10 @@ nav ul li:hover::after {
     padding-left: 10px;
 }
 
+.ed-box i {
+    color: rgb(168, 212, 100);
+}
+
 .ed-box p:last-child {
     padding-bottom: 5px;
 }
