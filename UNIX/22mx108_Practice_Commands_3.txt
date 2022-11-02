@@ -1,0 +1,399 @@
+Script started on Tue 01 Nov 2022 11:28:29 AM IST
+]0;22mx108@shavakpsg:~/practice_commands[?1034h[22mx108@shavakpsg practice_commands]$ [K[22mx108@shavakpsg practice_commands]$ clear
+[H[2J]0;22mx108@shavakpsg:~/practice_commands[22mx108@shavakpsg practice_commands]$ cd 22mx108_Practice_Coommands[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[48;5;10;38;5;21m22mx108[0m  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  [38;5;27mpractice_commands[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108/
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ uid
+bash: uid: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat u[Ki[K[K[K[K[Kid
+uid=1637(22mx108) gid=1637(22mx108) groups=1637(22mx108)
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ group
+bash: group: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ groups
+22mx108
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ gid
+bash: gid: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ id
+uid=1637(22mx108) gid=1637(22mx108) groups=1637(22mx108)
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ id -g
+1637
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ uname -a [K
+Linux shavakpsg 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ echo *
+*
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ echo *[1P*
+bash: echo*: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ echo* *[C?
+*?
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ echo *
+*
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ e[Kcd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ echo *
+22mx108 backup_22mx108 parent practice_commands
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108/
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+ls: cannot open directory .: Permission denied
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod 777 22mx[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd[K[Kcd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ chmos[Kd 777 w[K22mx108/
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ clear
+[H[2J]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[48;5;10;38;5;21m22mx108[0m  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  [38;5;27mpractice_commands[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108/
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+[0m[38;5;34mMy Directory[0m  [38;5;34msample[0m   [38;5;34mtest2.c[0m  [38;5;34mtest4.c[0m
+newfile       [38;5;34mtest1.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ touch -Trial1,[K.txt
+touch: invalid option -- 'T'
+Try `touch --help' for more information.
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ touch ./-Trail[K[K[Kial1.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+[0m[38;5;34mMy Directory[0m  [38;5;34msample[0m   [38;5;34mtest2.c[0m  [38;5;34mtest4.c[0m  -Trial1.txt
+newfile       [38;5;34mtest1.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm ./_t[KT[K[K-Trial1.txt 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ touch i[KFl[Kile1.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ nano FI[Kile1.txt 
+[?1049h[1;38r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.9       File: File1.txt                      [36;23H[ Read 0 lines ][37d^G(B[m Get Hel(B[0;7m^O(B[m WriteOu(B[0;7m^R(B[m Read Fi(B[0;7m^Y(B[m Prev Pa(B[0;7m^K(B[m Cut Tex(B[0;7m^C(B[m Cur Pos[38;1H(B[0;7m^X(B[m Exit   (B[0;7m^J(B[m Justify(B[0;7m^W(B[m Where I(B[0;7m^V(B[m Next Pa(B[0;7m^U(B[m UnCut T(B[0;7m^T(B[m To Spe[?7ll[?7h[3d[1;51H(B[0;7mModified[3d(B[msa [K[4d[A[36d(B[0;7mFile to insert [from ./] :                                  [37;11H(B[mp         (B[0;7m^T(B[m To Files         (B[0;7mM-F(B[m New Buffer[K[38;2H(B[0;7mC(B[m Cancel           (B[0;7m^X(B[m Execute Command[K[36;28H(B[0;7mx(B[m(B[0;7mi(B[m(B[0;7mt(B[m[36;20H[1K (B[0;7m[ "xit" not found ](B[m[K[37;11H(B[0;7m^O(B[m WriteOu(B[0;7m^R(B[m Read Fi(B[0;7m^Y(B[m Prev Pa(B[0;7m^K(B[m Cut Tex(B[0;7m^C(B[m Cur Pos[38;2H(B[0;7mX(B[m Exit   (B[0;7m^J(B[m Justify(B[0;7m^W(B[m Where I(B[0;7m^V(B[m Next Pa(B[0;7m^U(B[m UnCut T(B[0;7m^T(B[m To Spe[?7ll[?7h[3dexit[4d[36d(B[0;7mFile Name to Write: File1.txt                               [37;11H(B[mp    (B[0;7m^T(B[m To Files    (B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend[K[38;2H(B[0;7mC(B[m Cancel      (B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup Fil[?7le[?7h[36;30H(B[0;7mo(B[m(B[0;7mo(B[m(B[0;7m (B[m(B[0;7m (B[m[1;51H[39;49m(B[0;7m        [36;21H(B[m[1K (B[0;7m[ Wrote 2 lines ](B[m[K[37;11H(B[0;7m^O(B[m WriteOu(B[0;7m^R(B[m Read Fi(B[0;7m^Y(B[m Prev Pa(B[0;7m^K(B[m Cut Tex(B[0;7m^C(B[m Cur Pos[38;2H(B[0;7mX(B[m Exit   (B[0;7m^J(B[m Justify(B[0;7m^W(B[m Where I(B[0;7m^V(B[m Next Pa(B[0;7m^U(B[m UnCut T(B[0;7m^T(B[m To Spe[?7ll[?7h[4d[37d[J[38;60H[38;1H[?1049l[?1l>]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm [K[K[Kvi[K[Krm File1.txt 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ touch FIl[K[Kile1.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ [K[22mx108@shavakpsg 22mx108]$ vi File1.txt 
+[?1049h[?1h=[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H"File1.txt" 0L, 0C[>c[2;1H[94m~                                                                                                                         [3;1H~                                                                                                                         [4;1H~                                                                                                                         [5;1H~                                                                                                                         [6;1H~                                                                                                                         [7;1H~                                                                                                                         [8;1H~                                                                                                                         [9;1H~                                                                                                                         [10;1H~                                                                                                                         [11;1H~                                                                                                                         [12;1H~                                                                                                                         [13;1H~                                                                                                                         [14;1H~                                                                                                                         [15;1H~                                                                                                                         [16;1H~                                                                                                                         [17;1H~                                                                                                                         [18;1H~                                                                                                                         [19;1H~                                                                                                                         [20;1H~                                                                                                                         [21;1H~                                                                                                                         [22;1H~                                                                                                                         [23;1H~                                                                                                                         [24;1H~                                                                                                                         [25;1H~                                                                                                                         [26;1H~                                                                                                                         [27;1H~                                                                                                                         [28;1H~                                                                                                                         [29;1H~                                                                                                                         [30;1H~                                                                                                                         [31;1H~                                                                                                                         [32;1H~                                                                                                                         [33;1H~                                                                                                                         [34;1H~                                                                                                                         [35;1H~                                                                                                                         [36;1H~                                                                                                                         [37;1H~                                                                                                                         [38;1H~                                                                                                                         [m[39;105H0,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[1m-- VISUAL BLOCK --[m[39;105H[K[39;105H0,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[K[39;105H0,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[1m-- VISUAL BLOCK --[m[39;105H[K[39;105H0,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[K[39;105H0,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[1m-- INSERT --[m[39;105H[K[39;105H0,1[11CAll[1;1H[?12l[?25h[34m^[?25l^V[m[39;105H1,2-3[1;3H[?12l[?25h[34m^[?25l^?[m[39;107H3-5[1;5H[?12l[?25h[?25l[1;3H[K[39;107H2-3[1;3H[?12l[?25h[?25l[1;1H[K[39;107H1  [1;1H[?12l[?25h[34m^[?25l^V[m[39;107H2-3[1;3H[?12l[?25h[34m^[?25l^V[m[39;107H3-5[1;5H[?12l[?25h[34m^[?25l^V[m[39;107H4-7[1;7H[?12l[?25h[?25l[1;5H[K[39;107H3-5[1;5H[?12l[?25h[?25l[1;3H[K[39;107H2-3[1;3H[?12l[?25h[?25l[1;1H[K[39;107H1  [1;1H[?12l[?25h[?25l:[39;107H2[1;2H[?12l[?25h[?25l:q[39;107H3[1;3H[?12l[?25h[?25l[2;1H[K[39;105H2,1[2;1H[?12l[?25h[?25l[94m~                                                                                                                         [m[39;105H1,3[1;3H[?12l[?25h[?25l[1;2H[K[39;107H2[1;2H[?12l[?25h[?25l[1;1H[K[39;107H1[1;1H[?12l[?25h[?25l[39;4H[1mREPLACE --[m[39;105H[K[39;105H1,1[11CAll[1;1H[?12l[?25h[?25l:[39;107H2[1;2H[?12l[?25h[?25l:q[39;107H3[1;3H[?12l[?25h[?25l[2;1H[K[39;105H2,1[2;1H[?12l[?25h[?25l[94m~                                                                                                                         [m[39;105H1,3[1;3H[?12l[?25h[?25l[1;2H[K[39;107H2[1;2H[?12l[?25h[?25l[1;1H[K[39;107H1[1;1H[?12l[?25h[39;1H[K[1;1H[?25l[39;105H1,0-1[9CAll[1;1H[?12l[?25h[?25l[39;105H[K[39;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[m[53C1,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[K[39;1H:[?12l[?25h![?25l[?12l[?25hq[?25l[?12l[?25h[?25l:!q[?1l>[?12l[?25h[?1049l
+[No write since last change]
+/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[?1h=[27m[m[H[2J[?25l[2;1H[94m~                                                                                                                         [3;1H~                                                                                                                         [4;1H~                                                                                                                         [5;1H~                                                                                                                         [6;1H~                                                                                                                         [7;1H~                                                                                                                         [8;1H~                                                                                                                         [9;1H~                                                                                                                         [10;1H~                                                                                                                         [11;1H~                                                                                                                         [12;1H~                                                                                                                         [13;1H~                                                                                                                         [14;1H~                                                                                                                         [15;1H~                                                                                                                         [16;1H~                                                                                                                         [17;1H~                                                                                                                         [18;1H~                                                                                                                         [19;1H~                                                                                                                         [20;1H~                                                                                                                         [21;1H~                                                                                                                         [22;1H~                                                                                                                         [23;1H~                                                                                                                         [24;1H~                                                                                                                         [25;1H~                                                                                                                         [26;1H~                                                                                                                         [27;1H~                                                                                                                         [28;1H~                                                                                                                         [29;1H~                                                                                                                         [30;1H~                                                                                                                         [31;1H~                                                                                                                         [32;1H~                                                                                                                         [33;1H~                                                                                                                         [34;1H~                                                                                                                         [35;1H~                                                                                                                         [36;1H~                                                                                                                         [37;1H~                                                                                                                         [38;1H~                                                                                                                         [m[39;105H1,0-1[9CAll[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[39;1H[1m-- INSERT --[m[39;105H[K[39;105H1,1[11CAll[1;1H[?12l[?25h[?25l:[39;107H2[1;2H[?12l[?25h[?25l[1;1H[K[39;107H1[1;1H[?12l[?25h[39;1H[K[1;1H[?25l[39;105H1,0-1[9CAll[1;1H[?12l[?25h[?25l[39;105H[K[39;1H:[?12l[?25hq[?25l[?12l[?25h1[?25l[?12l[?25h[?25l[39;3H[K[39;3H[?12l[?25h![?25l[?12l[?25h[?25l[?1l>[?12l[?25h[?1049l
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+File1.txt  [0m[38;5;34mMy Directory[0m  newfile  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat [K[K[K[Kecho ""^V"[2P"^["["C"[1P"[1P"[2P"[K[C[K[K[K[K[K[Kls
+File1.txt  [0m[38;5;34mMy Directory[0m  newfile  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat File1.txt 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[48;5;10;38;5;21m22mx108[0m  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  [38;5;27mpractice_commands[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cat F[K[K[K[K[Kls
+[0m[48;5;10;38;5;21m22mx108[0m  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  [38;5;27mpractice_commands[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cs parent/
+bash: cs: command not found
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ;s[K[Kcd [K[K[Kls
+[0m[48;5;10;38;5;21m22mx108[0m  [38;5;27mbackup_22mx108[0m  [38;5;27mparent[0m  [38;5;27mpractice_commands[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108/
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+File1.txt  [0m[38;5;34mMy Directory[0m  newfile  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat File1.txt 
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor felis. Donec ultrices sem ut velit convallis, sodales placerat ligula ornare. Proin non tortor massa. Aenean condimentum, elit a vestibulum egestas, libero nulla iaculis ligula, a lobortis nisl ante sed orci. Morbi vitae turpis vitae quam molestie pretium. Mauris fermentum enim metus, sed ornare justo ultrices eget. Nullam sodales nulla ut dolor interdum, sed pretium eros luctus. Quisque ac vulputate sem. Proin id malesuada sapien. Maecenas in lorem vitae nisl finibus volutpat. In hac habitasse platea dictumst. Nam sagittis accumsan lorem mollis posuere. Integer elit mauris, lobortis id est et, ullamcorper rhoncus ligula. Donec quam enim, aliquam in ultricies ultricies, sodales at enim. Proin placerat arcu porttitor dui fringilla, in tempor nisi mollis.
+
+Sed venenatis magna in finibus scelerisque. In lacinia sapien eget sagittis efficitur. In egestas magna in purus pulvinar pulvinar. Fusce auctor orci eget est placerat, sit amet tempor diam porta. Donec scelerisque in est eget tempor. Donec cursus ipsum ut elit fermentum suscipit. Phasellus sed tellus tempus, dapibus sapien ut, tincidunt sem. Aliquam erat volutpat.
+
+Phasellus ut risus ut dolor posuere luctus. Nam nec ultrices mi, a consectetur erat. Vivamus ultricies sed sem et viverra. Etiam venenatis ut augue non pretium. Maecenas ut euismod sapien. Aenean dictum venenatis sodales. Aenean at laoreet eros. Duis ultricies, elit vitae efficitur suscipit, nisl urna egestas nunc, sit amet consequat lacus enim vitae turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Proin sit amet sapien tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus velit purus, sit amet vestibulum turpis iaculis et. Phasellus tincidunt augue in tellus eleifend, vitae rutrum urna sollicitudin. In nec porttitor est, ac lacinia nunc. Pellentesque laoreet accumsan mi id euismod. Vivamus at congue velit. Ut ut mauris et quam feugiat volutpat. Cras pulvinar sapien non pretium blandit. Cras at dolor eget enim tempus ultricies.
+
+Nulla et sodales dui. Nam ullamcorper iaculis pharetra. Aenean sed cursus arcu. Integer non lectus vehicula, eleifend diam convallis, fermentum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mollis laoreet elit eu fermentum. Nunc a fermentum erat. Proin malesuada dolor sapien, a congue justo lobortis nec. Donec malesuada accumsan eleifend. ]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+File1.txt  [0m[38;5;34mMy Directory[0m  newfile  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ [K[22mx108@shavakpsg 22mx108]$ [K[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head File1.txt 
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor felis. Donec ultrices sem ut velit convallis, sodales placerat ligula ornare. Proin non tortor massa. Aenean condimentum, elit a vestibulum egestas, libero nulla iaculis ligula, a lobortis nisl ante sed orci. Morbi vitae turpis vitae quam molestie pretium. Mauris fermentum enim metus, sed ornare justo ultrices eget. Nullam sodales nulla ut dolor interdum, sed pretium eros luctus. Quisque ac vulputate sem. Proin id malesuada sapien. Maecenas in lorem vitae nisl finibus volutpat. In hac habitasse platea dictumst. Nam sagittis accumsan lorem mollis posuere. Integer elit mauris, lobortis id est et, ullamcorper rhoncus ligula. Donec quam enim, aliquam in ultricies ultricies, sodales at enim. Proin placerat arcu porttitor dui fringilla, in tempor nisi mollis.
+
+Sed venenatis magna in finibus scelerisque. In lacinia sapien eget sagittis efficitur. In egestas magna in purus pulvinar pulvinar. Fusce auctor orci eget est placerat, sit amet tempor diam porta. Donec scelerisque in est eget tempor. Donec cursus ipsum ut elit fermentum suscipit. Phasellus sed tellus tempus, dapibus sapien ut, tincidunt sem. Aliquam erat volutpat.
+
+Phasellus ut risus ut dolor posuere luctus. Nam nec ultrices mi, a consectetur erat. Vivamus ultricies sed sem et viverra. Etiam venenatis ut augue non pretium. Maecenas ut euismod sapien. Aenean dictum venenatis sodales. Aenean at laoreet eros. Duis ultricies, elit vitae efficitur suscipit, nisl urna egestas nunc, sit amet consequat lacus enim vitae turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Proin sit amet sapien tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus velit purus, sit amet vestibulum turpis iaculis et. Phasellus tincidunt augue in tellus eleifend, vitae rutrum urna sollicitudin. In nec porttitor est, ac lacinia nunc. Pellentesque laoreet accumsan mi id euismod. Vivamus at congue velit. Ut ut mauris et quam feugiat volutpat. Cras pulvinar sapien non pretium blandit. Cras at dolor eget enim tempus ultricies.
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear[K[K[K[K[Ktail -4 [K[Kn 4 File1.txt 
+
+Proin sit amet sapien tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus velit purus, sit amet vestibulum turpis iaculis et. Phasellus tincidunt augue in tellus eleifend, vitae rutrum urna sollicitudin. In nec porttitor est, ac lacinia nunc. Pellentesque laoreet accumsan mi id euismod. Vivamus at congue velit. Ut ut mauris et quam feugiat volutpat. Cras pulvinar sapien non pretium blandit. Cras at dolor eget enim tempus ultricies.
+
+Nulla et sodales dui. Nam ullamcorper iaculis pharetra. Aenean sed cursus arcu. Integer non lectus vehicula, eleifend diam convallis, fermentum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mollis laoreet elit eu fermentum. Nunc a fermentum erat. Proin malesuada dolor sapien, a congue justo lobortis nec. Donec malesuada accumsan eleifend. ]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head -n 1[K[K[K[K[K[K[K[K[K[K[22mx108@shavakpsg 22mx108]$ t[Khead -n 1 fi[K[KFile1.txt 
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head -n 1 File1.txt [1P[1@2
+
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head -n 2 File1.txt [1P[1@3
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor felis. Donec ultrices sem ut velit convallis, sodales placerat ligula ornare. Proin non tortor massa. Aenean condimentum, elit a vestibulum egestas, libero nulla iaculis ligula, a lobortis nisl ante sed orci. Morbi vitae turpis vitae quam molestie pretium. Mauris fermentum enim metus, sed ornare justo ultrices eget. Nullam sodales nulla ut dolor interdum, sed pretium eros luctus. Quisque ac vulputate sem. Proin id malesuada sapien. Maecenas in lorem vitae nisl finibus volutpat. In hac habitasse platea dictumst. Nam sagittis accumsan lorem mollis posuere. Integer elit mauris, lobortis id est et, ullamcorper rhoncus ligula. Donec quam enim, aliquam in ultricies ultricies, sodales at enim. Proin placerat arcu porttitor dui fringilla, in tempor nisi mollis.
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ [K[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ touch [K[K[K[K[K[Khead -n 3 File1.txt > Ext_File1 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+Ext_File1  [0m[38;5;34mMy Directory[0m  [38;5;34msample[0m   [38;5;34mtest2.c[0m  [38;5;34mtest4.c[0m
+File1.txt  newfile       [38;5;34mtest1.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm Ext_File1 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head [K -n 5 [K[K3 FIle[K[K[Kile1.txt & tail -n 2  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 2 2[K[K[A[22mx108@shavakpsg 22mx108]$ head -n 3 File1.txt & tail -n 2 File1.txt | >[K[K[K>e[KExx[Kt_File.txt
+[1] 1136
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor felis. Donec ultrices sem ut velit convallis, sodales placerat ligula ornare. Proin non tortor massa. Aenean condimentum, elit a vestibulum egestas, libero nulla iaculis ligula, a lobortis nisl ante sed orci. Morbi vitae turpis vitae quam molestie pretium. Mauris fermentum enim metus, sed ornare justo ultrices eget. Nullam sodales nulla ut dolor interdum, sed pretium eros luctus. Quisque ac vulputate sem. Proin id malesuada sapien. Maecenas in lorem vitae nisl finibus volutpat. In hac habitasse platea dictumst. Nam sagittis accumsan lorem mollis posuere. Integer elit mauris, lobortis id est et, ullamcorper rhoncus ligula. Donec quam enim, aliquam in ultricies ultricies, sodales at enim. Proin placerat arcu porttitor dui fringilla, in tempor nisi mollis.
+[1]+  Done                    head -n 3 File1.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_File.txt 
+
+Nulla et sodales dui. Nam ullamcorper iaculis pharetra. Aenean sed cursus arcu. Integer non lectus vehicula, eleifend diam convallis, fermentum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mollis laoreet elit eu fermentum. Nunc a fermentum erat. Proin malesuada dolor sapien, a congue justo lobortis nec. Donec malesuada accumsan eleifend. ]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clearat Ext_File.txt lear[Khead -n 3 File1.txt & tail -n 2 File1.txt >Ext_File.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm Ext_File1 [K[8Pclear[3Plshead -n 3 File1.txt > Ext_File1> Ext_File1
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_File
+cat: Ext_File: No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_File1^M[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+Ext_File1  Ext_File.txt  File1.txt  [0m[38;5;34mMy Directory[0m  newfile  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_File.txt
+
+Nulla et sodales dui. Nam ullamcorper iaculis pharetra. Aenean sed cursus arcu. Integer non lectus vehicula, eleifend diam convallis, fermentum quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mollis laoreet elit eu fermentum. Nunc a fermentum erat. Proin malesuada dolor sapien, a congue justo lobortis nec. Donec malesuada accumsan eleifend. ]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_File.txt1.txt
+cat: Ext_File1.txt: No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_File1.txt[K[K[K[K
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor felis. Donec ultrices sem ut velit convallis, sodales placerat ligula ornare. Proin non tortor massa. Aenean condimentum, elit a vestibulum egestas, libero nulla iaculis ligula, a lobortis nisl ante sed orci. Morbi vitae turpis vitae quam molestie pretium. Mauris fermentum enim metus, sed ornare justo ultrices eget. Nullam sodales nulla ut dolor interdum, sed pretium eros luctus. Quisque ac vulputate sem. Proin id malesuada sapien. Maecenas in lorem vitae nisl finibus volutpat. In hac habitasse platea dictumst. Nam sagittis accumsan lorem mollis posuere. Integer elit mauris, lobortis id est et, ullamcorper rhoncus ligula. Donec quam enim, aliquam in ultricies ultricies, sodales at enim. Proin placerat arcu porttitor dui fringilla, in tempor nisi mollis.
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm Ext_File
+rm: cannot remove `Ext_File': No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm Ext_File1
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+Ext_File.txt  File1.txt  [0m[38;5;34mMy Directory[0m  newfile  [38;5;34msample[0m  [38;5;34mtest1.c[0m  [38;5;34mtest2.c[0m  [38;5;34mtest3.c[0m  [38;5;34mtest4.c[0m  [38;5;34mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm Ext_File.txt 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ rm [K[K[Kclear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head -n 3 File1.txt > Ext_FIle1[K[K[K[Kil1.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ tail -n 2 File1.txt > Ext_Fil1.txt 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ tail -n 2 File1.txt > Ext_Fil1.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phead -n 3 File1.txt > Ext_Fil1.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ head -n 3 File1.txt > Ext_Fil1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -n 2 File1.txt > Ext_Fil1.txt [1@>
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Ext_Fil1.txt 
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor felis. Donec ultrices sem ut velit convallis, sodales placerat ligula ornare. Proin non tortor massa. Aenean condimentum, elit a vestibulum egestas, libero nulla iaculis ligula, a lobortis nisl ante sed orci. Morbi vitae turpis vitae quam molestie pretium. Mauris fermentum enim metus, sed ornare justo ultrices eget. Nullam sodales nulla ut dolor interdum, sed pretium eros luctus. Quisque ac vulputate sem. Proin id malesuada sapien. Maecenas in lorem vitae nisl finibus volutpat. In hac habitasse platea dictumst. Nam sagittis accumsan lorem mollis posuere. Integer elit mauris, lobortis id est et, ullamcorper rhoncus ligula. Donec quam enim, aliquam in ultricies ultricies, sodales at enim. Proin placerat arcu porttitor dui fringilla, in tempor nisi mollis.
+
+Nulla et sodales dui. Nam ullamcorper iaculis pharetra. Aenean sed cursus arcu. Integer non lectus vehicula, eleifend diam convallis, fermentum quam. Orci varius natoque penatibus Script started on Wed 02 Nov 2022 10:32:02 AM IST
+]0;22mx108@shavakpsg:~/practice_commands[?1034h[22mx108@shavakpsg practice_commands]$ cd..[K[K ../22mx108/
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Emp1.dat 
+ C001|Ashok|BE|Engineer|Assembly|10/10/2005|55000|Coimbatore
+ C002|Kumar|ME|Head|Assembly|10/2/2002|75000|Chennai
+ C003|Aruna|MBA|Manager|HR|10/1/2005|70000|Madurai
+ C004|Bala|BE|Engineer|Production |1/3/2015|35000|Chennai
+ C005|Babu|MSC|Chemist|Production|10/3/2005|72000|Coimbatore       
+ C006|Fathima|BE|Engineer|Sales|21/5/2016|45000|Coimbatore
+ C007|Suba|MTech|Head|Production|10/10/2005|75000|Madurai
+ C008|Gowri|DECE|Layman|Production|6/3/2018|1000|Trichy
+ C009|Jaga|DEEE|Worker|Shipment|6/3/2018|10000|Trichy
+ C010|Loganathan|DEEE|Worker|Sales|6/3/2018|10000|Trichy
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cut -d ""|"[C -f 1[K2 Emp1.dat 
+Ashok
+Kumar
+Aruna
+Bala
+Babu
+Fathima
+Suba
+Gowri
+Jaga
+Loganathan
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cut -d "|" -f 2 Emp1.dat [1@,[1@7
+Ashok|55000
+Kumar|75000
+Aruna|70000
+Bala|35000
+Babu|72000
+Fathima|45000
+Suba|75000
+Gowri|1000
+Jaga|10000
+Loganathan|10000
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat PR[K[K[K[K[K[Kexit
+exit
+
+Script done on Wed 02 Nov 2022 10:38:05 AM IST
+Script started on Wed 02 Nov 2022 10:38:19 AM IST
+]0;22mx108@shavakpsg:~/practice_commands[?1034h[22mx108@shavakpsg practice_commands]$ cd ..
+]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ ls
+[0m[34;42m22mx108[0m  [01;34mbackup_22mx108[0m  [01;34mparent[0m  [01;34mpractice_commands[0m
+[m]0;22mx108@shavakpsg:~[22mx108@shavakpsg ~]$ cd 22mx108/
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+Emp1.dat  Ext_Fil1.txt  File1.txt  [0m[01;32mMy Directory[0m  newfile  [01;32msample[0m  [01;32mtest1.c[0m  [01;32mtest2.c[0m  [01;32mtest3.c[0m  [01;32mtest4.c[0m  [01;32mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ touch Personal
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cut -d ""|"[C -f 1,2,8 ?[K> Personal 
+
+
+^C
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ac[Kc[K[Kcat per[K[K[KPersonal 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls
+Emp1.dat  Ext_Fil1.txt  File1.txt  [0m[01;32mMy Directory[0m  newfile  Personal  [01;32msample[0m  [01;32mtest1.c[0m  [01;32mtest2.c[0m  [01;32mtest3.c[0m  [01;32mtest4.c[0m  [01;32mtest.c[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ lscat Personal [8Plearut -d "|" -f 1,2,8 > Personal [1P [1P [1P [1P [1P [1P [1P [1P [K[1P E m p1.dat 
+ C001|Ashok|Coimbatore
+ C002|Kumar|Chennai
+ C003|Aruna|Madurai
+ C004|Bala|Chennai
+ C005|Babu|Coimbatore       
+ C006|Fathima|Coimbatore
+ C007|Suba|Madurai
+ C008|Gowri|Trichy
+ C009|Jaga|Trichy
+ C010|Loganathan|Trichy
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cut -d "|" -f 1,2,8 Emp1.dat > [K[K| > Personal 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Personal 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Personal [29@ut -d "|" -f 1,2,8 Emp1.dat | >[C[C[C[C[C[C[C[C[C[C[1P[1P
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Personal 
+ C001|Ashok|Coimbatore
+ C002|Kumar|Chennai
+ C003|Aruna|Madurai
+ C004|Bala|Chennai
+ C005|Babu|Coimbatore       
+ C006|Fathima|Coimbatore
+ C007|Suba|Madurai
+ C008|Gowri|Trichy
+ C009|Jaga|Trichy
+ C010|Loganathan|Trichy
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cut -d""|" "|"[C[C[C -f Em[K[K8 Emp1.dat [1P[1@7[C[C[C[C[C[C[C[C[C[C> salary
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat salary 
+55000
+75000
+70000
+35000
+72000
+45000
+75000
+1000
+10000
+10000
+
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ paste -d "|" Personal Sal[K[K[Ksalary > [K[K
+ C001|Ashok|Coimbatore|55000
+ C002|Kumar|Chennai|75000
+ C003|Aruna|Madurai|70000
+ C004|Bala|Chennai|35000
+ C005|Babu|Coimbatore       |72000
+ C006|Fathima|Coimbatore|45000
+ C007|Suba|Madurai|75000
+ C008|Gowri|Trichy|1000
+ C009|Jaga|Trichy|10000
+ C010|Loganathan|Trichy|10000
+|
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ paste -d "|" Personal salary > Earnings
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Personal [K[K[K[K[K[K[K[K[K[K[K[K[Kpaste -d "|" Personal S[Ksalary Earnings 
+ C001|Ashok|Coimbatore|55000| C001|Ashok|Coimbatore|55000
+ C002|Kumar|Chennai|75000| C002|Kumar|Chennai|75000
+ C003|Aruna|Madurai|70000| C003|Aruna|Madurai|70000
+ C004|Bala|Chennai|35000| C004|Bala|Chennai|35000
+ C005|Babu|Coimbatore       |72000| C005|Babu|Coimbatore       |72000
+ C006|Fathima|Coimbatore|45000| C006|Fathima|Coimbatore|45000
+ C007|Suba|Madurai|75000| C007|Suba|Madurai|75000
+ C008|Gowri|Trichy|1000| C008|Gowri|Trichy|1000
+ C009|Jaga|Trichy|10000| C009|Jaga|Trichy|10000
+ C010|Loganathan|Trichy|10000| C010|Loganathan|Trichy|10000
+|||
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Trial[K[K[K[K[K> Trial.txt
+This is a sample file
+fop   created for unix practice commands
+The sa a  assignment was to create a file
+with few lines and name 
+ot as       ita    as Trial.txt
+^C
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ cat Trial.txt 
+This is a sample file
+created for unix practice commands
+The assignment was to create a file
+with few lines and name 
+it as Trial.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod[K[K[K[K[Kls =[K-;[Kl c[KTrial.txt 
+-rw-rw-r-- 1 22mx108 22mx108 134 Nov  2 10:46 Trial.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chom[K[Kmod o=r,w[K[K+w a,g=0
+chmod: cannot access `a,g=0': No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -l
+total 32
+-rw-rw-r-- 1 22mx108 22mx108  277 Nov  2 10:42 Earnings
+-rw-rw-r-- 1 22mx108 22mx108  576 Nov  2 10:30 Emp1.dat
+-rw-rw-r-- 1 22mx108 22mx108 1236 Nov  1 11:50 Ext_Fil1.txt
+-rw-rw-r-- 1 22mx108 22mx108 2619 Nov  1 11:44 File1.txt
+--wx-wx-wx 1 22mx108 22mx108  375 Nov  1 11:11 [0m[01;32mMy Directory[0m
+-rw-rw-r-- 1 22mx108 22mx108    0 Nov  1 11:17 newfile
+-rw-rw-r-- 1 22mx108 22mx108  217 Nov  2 10:40 Personal
+-rw-rw-r-- 1 22mx108 22mx108   60 Nov  2 10:41 salary
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32msample[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest1.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest2.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest3.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Nov  1 10:50 [01;32mtest4.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest.c[0m
+-rw-rw-r-- 1 22mx108 22mx108  134 Nov  2 10:46 Trial.txt
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls-l Trial.txt 
+bash: ls-l: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls-l Trial.txt [1@ 
+-rw-rw-r-- 1 22mx108 22mx108 134 Nov  2 10:46 Trial.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod + [Kx [K[K[Ko=[K+rw u[K[K[K[K[K[Ku+rw uw[K[Koa[K[Kao[K[Kgoa-rwx Trial.txt 
+chmod: cannot access `goa-rwx': No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod u+rw goa-rwx Trial.txt [C[C[1P
+chmod: cannot access `oa-rwx': No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod u+rw oa-rwx Trial.txt [1P[1P[1@g[1@o
+chmod: cannot access `go-rwx': No such file or directory
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chmod u+rw go-rwx Trial.txt [1P[1@,
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -T[Kl Trial.txt 
+-rw------- 1 22mx108 22mx108 134 Nov  2 10:46 Trial.txt
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ nano[K[K[K[Kchmod 5-[K00 Trial.txt 
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -l
+total 32
+-rw-rw-r-- 1 22mx108 22mx108  277 Nov  2 10:42 Earnings
+-rw-rw-r-- 1 22mx108 22mx108  576 Nov  2 10:30 Emp1.dat
+-rw-rw-r-- 1 22mx108 22mx108 1236 Nov  1 11:50 Ext_Fil1.txt
+-rw-rw-r-- 1 22mx108 22mx108 2619 Nov  1 11:44 File1.txt
+--wx-wx-wx 1 22mx108 22mx108  375 Nov  1 11:11 [0m[01;32mMy Directory[0m
+-rw-rw-r-- 1 22mx108 22mx108    0 Nov  1 11:17 newfile
+-rw-rw-r-- 1 22mx108 22mx108  217 Nov  2 10:40 Personal
+-rw-rw-r-- 1 22mx108 22mx108   60 Nov  2 10:41 salary
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32msample[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest1.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest2.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest3.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Nov  1 10:50 [01;32mtest4.c[0m
+--wx-wx-wx 1 22mx108 22mx108    0 Oct 28 09:18 [01;32mtest.c[0m
+-r-x------ 1 22mx108 22mx108  134 Nov  2 10:46 [01;32mTrial.txt[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -lTr[K[K Trial.txt 
+-r-x------ 1 22mx108 22mx108 134 Nov  2 10:46 [0m[01;32mTrial.txt[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chown Trial.txt 
+chown: missing operand after `Trial.txt'
+Try `chown --help' for more information.
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clear
+[H[2J]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ clearhown Trial.txt lear[Kls -l Trial.txt [Kchmod 500 Trial.txt [1P[1P[1@1[1@1[1P[1P[1@4[1@4
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls-l Trial.txt 
+bash: ls-l: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls-l Trial.txt [1@ 
+-r-xr--r-- 1 22mx108 22mx108 134 Nov  2 10:46 [0m[01;32mTrial.txt[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chown Trial.txt 22mx12[K16
+chown: invalid user: `Trial.txt'
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chown Trial.txt 22mx116[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kroo t[K[Kt Trial.txt 
+chown: changing ownership of `Trial.txt': Operation not permitted
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ ls -l Trial.txt 
+-r-xr--r-- 1 22mx108 22mx108 134 Nov  2 10:46 [0m[01;32mTrial.txt[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chown Tr[K[K22mx10[K16 TR[Krial.txt 
+chown: changing ownership of `Trial.txt': Operation not permitted
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chown 22mx116 Trial.txt [8Pls -l[C[C[C[C[C[C[C[C[C[C[C
+-r-xr--r-- 1 22mx108 22mx108 134 Nov  2 10:46 [0m[01;32mTrial.txt[0m
+[m]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ groups
+22mx108
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chgrouo[Kp Tr[K[K22mx108 [K[K9 Trial.txt 
+bash: chgroup: command not found
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ chgrp 22mx109 Trial.txt 
+chgrp: changing group of `Trial.txt': Operation not permitted
+]0;22mx108@shavakpsg:~/22mx108[22mx108@shavakpsg 22mx108]$ exit
+exit
+
+Script done on Wed 02 Nov 2022 10:57:29 AM IST

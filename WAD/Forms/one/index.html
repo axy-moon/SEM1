@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <section>
+        <h1>Customer Details</h1> 
+      
+        <label for="">Mode: </label>
+        
+        <input type="radio" name="dark" id= "light" value= "dark" onclick="changeTheme()">
+        <label for="dark">Dark: </label>
+
+        <input type="radio" name="dark" id="light" value="light" onclick="changeThemeL()">
+        <label for="light">Light: </label>
+
+        
+        <hr>
+
+        <form action="" onsubmit="test()">
+            <div class="block">
+                <p class="sec-head">Full Name * </p>
+                    <div class="box">
+                    <input type="text">
+                    <p>First Name</p>
+                    </div>
+                    <div class="box">
+                    <input type="text">
+                    <p>Last Name</p>
+                    </div>
+            </div>
+            <br>
+            <div class="block" id="address">
+                <p class="sec-head">Address * </p>
+                    <div class="box" style="display: block;">
+                        <input type="text" id="add" onfocus="myFunction(this.id)" onblur="myFunctionB(this.id)">
+                        <p>Street Address</p>
+                        
+                        <input type="text">
+                        <p>Street Address Line 2</p>
+                        </div>
+                        </div>
+                        <div class="block">
+                                <div class="box">
+                                    <input type="text">
+                                    <p>City</p>
+                                </div>
+                                <div class="box">
+                                    <input type="text">
+                                    <p>State/Province</p>
+                                </div>
+                        </div>
+                        <div class="block" id="phone">
+                            <p class="sec-head">Phone Number *</p>
+                            <p id="pr"></p>
+                            <div class="box">
+                                <input type="text" id="phones" oninput="info()" pattern="[0-9]" title="input only numbers" placeholder="(000) 000-0000">
+                            </div>
+                        </div>
+                        <div class="sub">
+                            <input type="submit" value="Submit">
+                        </div>
+                        
+        </form>
+    </section>
+
+    <script>
+        function myFunction(x) {
+            document.getElementById(x).style.borderRadius = "10px";
+        }
+        function myFunctionB(x) {
+            document.getElementById(x).style.borderRadius = "5px";
+        }
+
+        function changeTheme() {
+            document.body.style.backgroundColor = "#404258";
+            document.body.style.color = "#fff";
+
+        }
+        function changeThemeL() {
+            document.body.style.backgroundColor = "#EEEEEE";
+            document.body.style.color = "#000";
+
+        }
+
+        function info() {
+                    let x =  document.getElementById('phones').value;
+                    document.getElementById('pr').innerHTML = "Number: " +  x;
+                    console.log(x);
+        }
+
+        function test() {
+            prompt()
+        }
+
+</script>
+
+
+</body>
+
+</html>

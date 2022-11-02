@@ -1,0 +1,363 @@
+Script started on Fri 28 Oct 2022 08:32:10 AM IST
+[22mx108@shavakpsg ~]$ echo hello world
+hello world
+[22mx108@shavakpsg ~]$ passwd
+Changing password for user 22mx108.
+Changing password for 22mx108.
+(current) UNIX password:
+[22mx108@shavakpsg ~]$ date
+Fri Oct 28 08:32:41 IST 2022
+[22mx108@shavakpsg ~]$ hostname
+shavakpsg
+[22mx108@shavakpsg ~]$ uname -a
+Linux shavakpsg 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+[22mx108@shavakpsg ~]$ uptime
+ 08:32:54 up 76 days, 22:56, 119 users,  load average: 0.33, 0.27, 0.20
+[22mx108@shavakpsg ~]$ whoami
+22mx108
+[22mx108@shavakpsg ~]$ who
+matlab   tty1         2022-08-12 10:58 (:0)
+root     tty7         2022-09-13 09:25 (:1)
+22mx225  pts/2        2022-10-28 08:15 (10.1.50.47)
+22mx129  pts/3        2022-10-28 08:15 (10.1.50.31)
+22mx110  pts/4        2022-10-28 08:16 (10.1.50.119)
+22mx102  pts/5        2022-10-28 08:18 (10.1.50.104)
+22mx119  pts/6        2022-10-28 08:18 (10.1.50.150)
+22mx210  pts/7        2022-10-28 08:20 (10.1.50.132)
+22mx129  pts/8        2022-10-28 08:18
+22mx112  pts/9        2022-10-28 08:19 (10.1.50.103)
+22mx226  pts/10       2022-10-28 08:20 (10.1.50.101)
+22mx206  pts/11       2022-10-28 08:21 (10.1.50.184)
+22mx111  pts/12       2022-10-28 08:21 (10.1.50.36)
+22mx117  pts/13       2022-10-28 08:21 (10.1.50.123)
+22mx113  pts/14       2022-10-28 08:21 (10.1.50.173)
+22mx206  pts/15       2022-10-28 08:21
+22mx225  pts/16       2022-10-28 08:22
+22mx121  pts/17       2022-10-28 08:22 (10.1.50.105)
+22mx123  pts/18       2022-10-28 08:22 (10.1.50.42)
+22mx204  pts/19       2022-10-28 08:23 (10.1.50.191)
+22mx211  pts/20       2022-10-28 08:23 (10.1.50.179)
+22mx205  pts/21       2022-10-28 08:23 (10.1.50.190)
+22mx109  pts/22       2022-10-28 08:24 (10.1.50.135)
+22mx107  pts/23       2022-10-28 08:24 (10.1.50.89)
+22mx224  pts/24       2022-10-28 08:24 (10.1.50.177)
+22mx103  pts/25       2022-10-28 08:24 (10.1.50.44)
+22mx120  pts/26       2022-10-28 08:25 (10.1.50.144)
+22mx209  pts/27       2022-10-28 08:26 (10.1.50.49)
+22mx214  pts/28       2022-10-28 08:26 (10.1.50.57)
+22mx219  pts/29       2022-10-28 08:27 (10.1.50.125)
+22mx213  pts/30       2022-10-28 08:26 (10.1.50.158)
+22mx130  pts/31       2022-10-28 08:26 (10.1.50.97)
+22mx216  pts/32       2022-10-28 08:26 (10.1.50.163)
+22mx128  pts/33       2022-10-28 08:27 (10.1.50.13)
+22mx202  pts/34       2022-10-28 08:27 (10.1.50.108)
+22mx203  pts/35       2022-10-28 08:29 (10.1.50.164)
+22mx124  pts/36       2022-10-28 08:27 (10.1.50.212)
+22mx223  pts/37       2022-10-28 08:27 (10.1.50.50)
+22mx222  pts/38       2022-10-28 08:27 (10.1.50.126)
+22mx108  pts/39       2022-10-28 08:28 (10.1.50.68)
+22mx229  pts/40       2022-10-28 08:28 (10.1.50.64)
+22mx227  pts/41       2022-10-28 08:28 (10.1.50.38)
+22mx120  pts/42       2022-10-28 08:28
+22mx119  pts/43       2022-10-28 08:28
+22mx224  pts/44       2022-10-28 08:28
+22mx214  pts/45       2022-10-28 08:28 (10.1.50.57)
+22mx122  pts/46       2022-10-28 08:29 (10.1.50.46)
+22mx105  pts/47       2022-10-28 08:29 (10.1.50.99)
+22mx106  pts/48       2022-10-28 08:29 (10.1.50.128)
+22mx228  pts/49       2022-10-28 08:29 (10.1.50.127)
+22mx121  pts/50       2022-10-28 08:29
+22mx111  pts/51       2022-10-28 08:29
+22mx120  pts/52       2022-10-28 08:29
+22mx105  pts/53       2022-10-28 08:30
+22mx221  pts/54       2022-10-28 08:30 (10.1.50.162)
+22mx224  pts/55       2022-10-28 08:30
+22mx113  pts/56       2022-10-28 08:30
+22mx123  pts/57       2022-10-28 08:30
+22mx118  pts/58       2022-10-28 08:30 (10.1.50.39)
+22mx103  pts/59       2022-10-28 08:30
+22mx211  pts/60       2022-10-28 08:30
+22mx122  pts/61       2022-10-28 08:31
+22mx212  pts/62       2022-10-28 08:31 (10.1.50.143)
+22mx209  pts/63       2022-10-28 08:31
+22mx102  pts/64       2022-10-28 08:31
+22mx107  pts/65       2022-10-28 08:31
+22mx204  pts/66       2022-10-28 08:31
+22mx226  pts/67       2022-10-28 08:31 (10.1.50.101)
+22mx123  pts/68       2022-10-28 08:31
+22mx112  pts/69       2022-10-28 08:31
+22mx207  pts/70       2022-10-28 08:32 (10.1.50.130)
+22mx116  pts/71       2022-10-28 08:32 (10.1.50.176)
+22mx108  pts/72       2022-10-28 08:32
+22mx104  pts/73       2022-10-28 08:32 (10.1.50.33)
+22mx103  pts/74       2022-10-28 08:32
+22mx217  pts/75       2022-10-28 08:32 (10.1.50.133)
+22mx219  pts/76       2022-10-28 08:32
+22mx218  pts/119      2022-10-07 09:47
+22mx230  pts/0        2022-10-28 08:14 (10.1.50.102)
+[22mx108@shavakpsg ~]$ id
+uid=1637(22mx108) gid=1637(22mx108) groups=1637(22mx108)
+[22mx108@shavakpsg ~]$ echo $SHELL
+/bin/bash
+[22mx108@shavakpsg ~]$ man "automatic door"
+No manual entry for automatic door
+[22mx108@shavakpsg ~]$ man ls
+[22mx108@shavakpsg ~]$ man who
+[22mx108@shavakpsg ~]$ clear
+[22mx108@shavakpsg ~]$ cal 2000
+                               2000
+
+       January               February                 March
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+                   1          1  2  3  4  5             1  2  3  4
+ 2  3  4  5  6  7  8    6  7  8  9 10 11 12    5  6  7  8  9 10 11
+ 9 10 11 12 13 14 15   13 14 15 16 17 18 19   12 13 14 15 16 17 18
+16 17 18 19 20 21 22   20 21 22 23 24 25 26   19 20 21 22 23 24 25
+23 24 25 26 27 28 29   27 28 29               26 27 28 29 30 31
+30 31
+        April                   May                   June
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+                   1       1  2  3  4  5  6                1  2  3
+ 2  3  4  5  6  7  8    7  8  9 10 11 12 13    4  5  6  7  8  9 10
+ 9 10 11 12 13 14 15   14 15 16 17 18 19 20   11 12 13 14 15 16 17
+16 17 18 19 20 21 22   21 22 23 24 25 26 27   18 19 20 21 22 23 24
+23 24 25 26 27 28 29   28 29 30 31            25 26 27 28 29 30
+30
+        July                  August                September
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+                   1          1  2  3  4  5                   1  2
+ 2  3  4  5  6  7  8    6  7  8  9 10 11 12    3  4  5  6  7  8  9
+ 9 10 11 12 13 14 15   13 14 15 16 17 18 19   10 11 12 13 14 15 16
+16 17 18 19 20 21 22   20 21 22 23 24 25 26   17 18 19 20 21 22 23
+23 24 25 26 27 28 29   27 28 29 30 31         24 25 26 27 28 29 30
+30 31
+       October               November               December
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7             1  2  3  4                   1  2
+ 8  9 10 11 12 13 14    5  6  7  8  9 10 11    3  4  5  6  7  8  9
+15 16 17 18 19 20 21   12 13 14 15 16 17 18   10 11 12 13 14 15 16
+22 23 24 25 26 27 28   19 20 21 22 23 24 25   17 18 19 20 21 22 23
+29 30 31               26 27 28 29 30         24 25 26 27 28 29 30
+                                              31
+
+[22mx108@shavakpsg ~]$ cal 9 1752
+   September 1752
+Su Mo Tu We Th Fr Sa
+       1  2 14 15 16
+17 18 19 20 21 22 23
+24 25 26 27 28 29 30
+
+
+
+[22mx108@shavakpsg ~]$ bc -l
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+34+23
+57
+^C
+(interrupt) Exiting bc.
+[22mx108@shavakpsg ~]$ echo 5+4 | bc -l
+9
+[22mx108@shavakpsg ~]$ yes please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+please
+22mx118:x:1647:1647::/home/22mx118:/bin/bash
+22mx119:x:1648:1648::/home/22mx119:/bin/bash
+22mx120:x:1649:1649::/home/22mx120:/bin/bash
+22mx121:x:1650:1650::/home/22mx121:/bin/bash
+22mx122:x:1651:1651::/home/22mx122:/bin/bash
+22mx123:x:1652:1652::/home/22mx123:/bin/bash
+22mx124:x:1653:1653::/home/22mx124:/bin/bash
+22mx125:x:1654:1654::/home/22mx125:/bin/bash
+22mx126:x:1655:1655::/home/22mx126:/bin/bash
+22mx127:x:1656:1656::/home/22mx127:/bin/bash
+22mx128:x:1657:1657::/home/22mx128:/bin/bash
+22mx129:x:1658:1658::/home/22mx129:/bin/bash
+22mx130:x:1659:1659::/home/22mx130:/bin/bash
+22mx202:x:1690:1690::/home/22mx202:/bin/bash
+22mx203:x:1691:1691::/home/22mx203:/bin/bash
+22mx204:x:1692:1692::/home/22mx204:/bin/bash
+22mx205:x:1693:1693::/home/22mx205:/bin/bash
+22mx206:x:1694:1694::/home/22mx206:/bin/bash
+22mx207:x:1695:1695::/home/22mx207:/bin/bash
+22mx208:x:1696:1696::/home/22mx208:/bin/bash
+22mx209:x:1697:1697::/home/22mx209:/bin/bash
+22mx210:x:1698:1698::/home/22mx210:/bin/bash
+22mx211:x:1699:1699::/home/22mx211:/bin/bash
+22mx212:x:1700:1700::/home/22mx212:/bin/bash
+22mx213:x:1701:1701::/home/22mx213:/bin/bash
+22mx214:x:1702:1702::/home/22mx214:/bin/bash
+22mx215:x:1703:1703::/home/22mx215:/bin/bash
+22mx216:x:1704:1704::/home/22mx216:/bin/bash
+22mx217:x:1705:1705::/home/22mx217:/bin/bash
+22mx218:x:1706:1706::/home/22mx218:/bin/bash
+22mx219:x:1707:1707::/home/22mx219:/bin/bash
+22mx220:x:1708:1708::/home/22mx220:/bin/bash
+22mx221:x:1709:1709::/home/22mx221:/bin/bash
+22mx222:x:1710:1710::/home/22mx222:/bin/bash
+22mx223:x:1711:1711::/home/22mx223:/bin/bash
+22mx224:x:1712:1712::/home/22mx224:/bin/bash
+22mx225:x:1713:1713::/home/22mx225:/bin/bash
+22mx226:x:1714:1714::/home/22mx226:/bin/bash
+22mx227:x:1715:1715::/home/22mx227:/bin/bash
+22mx228:x:1716:1716::/home/22mx228:/bin/bash
+22mx229:x:1717:1717::/home/22mx229:/bin/bash
+22mx230:x:1718:1718::/home/22mx230:/bin/bash
+22mx201:x:1719:1719::/home/22mx201:/bin/bash
+[22mx108@shavakpsg etc]$ cd -
+/
+[22mx108@shavakpsg /]$ pwd
+/
+[22mx108@shavakpsg /]$ cd ~
+[22mx108@shavakpsg ~]$ clear
+[22mx108@shavakpsg ~]$ mkdir parent
+[22mx108@shavakpsg ~]$ mkdir parent/DIR
+[22mx108@shavakpsg ~]$ mkdir ~/parent/DIR1
+[22mx108@shavakpsg ~]$ mkdir /home/22mx108/parent/DIR2
+[22mx108@shavakpsg ~]$ ls
+22mx108_Practice_Commands_1  parent
+[22mx108@shavakpsg ~]$ cd parent
+[22mx108@shavakpsg parent]$ ls
+DIR  DIR1  DIR2
+[22mx108@shavakpsg parent]$ cd ..
+[22mx108@shavakpsg ~]$ ls
+22mx108_Practice_Commands_1  parent
+[22mx108@shavakpsg ~]$ cd ~/parent/DIR@
+bash: cd: /home/22mx108/parent/DIR@: No such file or directory
+[22mx108@shavakpsg ~]$ cd ~/parent/DIR2
+[22mx108@shavakpsg DIR2]$ touch t1 t2 t3 t6 tt5 tt6 tt
+[22mx108@shavakpsg DIR2]$ ls
+t1  t2  t3  t6  tt  tt5  tt6
+[22mx108@shavakpsg DIR2]$ ls -d t* *6
+t1  t2  t3  t6  t6  tt  tt5  tt6  tt6
+[22mx108@shavakpsg DIR2]$ ls -d t**6
+t6  tt6
+[22mx108@shavakpsg DIR2]$ clear
+[22mx108@shavakpsg DIR2]$ ls -d t**6
+t6  tt6
+[22mx108@shavakpsg DIR2]$ cd ~
+[22mx108@shavakpsg ~]$ mkdir ~/parent/DIR/SUBDIR/
+[22mx108@shavakpsg ~]$ ls
+22mx108_Practice_Commands_1  parent
+[22mx108@shavakpsg ~]$ ls -l ~/DIR/SUBDIR
+ls: cannot access /home/22mx108/DIR/SUBDIR: No such file or directory
+[22mx108@shavakpsg ~]$ ls -l ~/parent/DIR/SUBDIR
+total 0
+[22mx108@shavakpsg ~]$ rm ~/parent/DIR/SUBDIR
+rm: cannot remove `/home/22mx108/parent/DIR/SUBDIR': Is a directory
+[22mx108@shavakpsg ~]$ rm -dr ~/parent/DIR/SUBDIR
+[22mx108@shavakpsg ~]$ rm ~/parent/DIR
+rm: cannot remove `/home/22mx108/parent/DIR': Is a directory
+[22mx108@shavakpsg ~]$ rm -dr ~/parent/DIR
+[22mx108@shavakpsg ~]$ exit
+
+Script done on Fri 28 Oct 2022 08:49:40 AM IST

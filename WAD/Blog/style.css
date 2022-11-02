@@ -93,7 +93,6 @@ nav ul li:hover::after {
 .left {
     display: grid;
     place-items: center;
-    border: 1px solid red;
 }
 
 .box {
@@ -129,7 +128,6 @@ nav ul li:hover::after {
 .right {
     display: grid;
     place-items: center;
-    border: 1px solid red;
 }
 
 .main img {
