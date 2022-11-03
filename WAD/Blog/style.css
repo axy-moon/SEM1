@@ -34,6 +34,10 @@ nav {
     color: grey;
 }
 
+#linkedin:hover {
+    color: #0077b5;
+}
+
 h1 {
 	padding-top: 1px;
     font-size: 22px;
@@ -60,7 +64,7 @@ nav  ul li::after {
 	content: '';
 	width:0%;
 	height: 2px;
-	background: darkblue;
+	background: #8D9EFF;
 	display: block;
 	margin: auto;
 	transition: 0.5s;
@@ -149,21 +153,24 @@ nav ul li:hover::after {
   }
 
 
-#abt-head {
+.abt-head {
     box-sizing: border-box;
     margin: auto;
 }
 
 .abt-sec {
     padding: 30px;
+    margin-bottom: 120px;
+
 }
 
 .ed-box {
-    border: 2px solid rgb(20 110 190);
+    /* border: 2px solid rgb(20 110 190); */
+    border: 1px solid #8D9EFF;
     border-radius: 5px;
     margin-top: 20px;
     width: 49%;
-    height: 240px;
+    height: 180px;
 }
 
 .ed-box h1 {
@@ -187,4 +194,53 @@ nav ul li:hover::after {
 .flex-box {
     display: flex;
     justify-content: space-between;
+}
+
+.third {
+    margin: auto;
+}
+
+.skills-sec {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-gap: 5px;
+    margin: auto;
+}
+
+.left-skills {
+    margin-left: 20px;
+    border-right: 1px solid #8D9EFF;
+
+}
+
+.third-head {
+    padding: 10px;
+    text-align: center;
+}
+.skill-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-icons i {
+    padding: 25px;
+    font-size: 28px;
+}
+
+
+.middle-certs p,.right-pro p {
+    padding: 10px;
+}
+
+.middle-certs  {
+    padding-left: 20px;
+}
+.sub {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.right-pro {
+    text-align: center;
+    border-right: 1px solid #8D9EFF;
+
 }
