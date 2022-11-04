@@ -7,38 +7,28 @@ int main() {
     char strOne[25];
     char strTwo[25];
     int len;
-    int j = 0;
+    int i=0;
+
     printf("Enter the string: ");
     scanf("%s",strOne);
 
     len = strlen(strOne);
 
 
-    for(int i=0;i<len;i++) {
+    while(strOne[i])
 
-
-        if(strOne[i]!='b') {
-            if(strOne[i] != 'a' && strOne[i+1] != 'c') 
-                strTwo[j] = strOne[i];
-            else
-                j+2;
-        
-            
+        if(strOne[i]=='b') {
+            strOne[i] = strOne[i+1];
+            i++;
+        if(strOne[i] == 'a' && strOne[i+1] == 'c') {
+            strOne[i] = strOne[i+2];
+            i=i+2;
+            }
+        else
+            i++;
         }
-        else {
-            j++;
-            continue; }
-        /* else if(strOne[i] == 'a'){
-            if(strOne[i+1] == 'c') {
-               //
-               //
-            } */
-        
-        
 
-    }
-
-    printf("%s",strTwo);
+    printf("%s",strOne);
 
     return 0;
 }

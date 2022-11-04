@@ -2,7 +2,7 @@
 
 int main() {
 
-    float scores[8] = {9.1,9.0,8.9,8.8,9.4,7.9,8.6,9.8};
+    float scores[8] = {};
     float tempVar;
     float sum = 0;
 

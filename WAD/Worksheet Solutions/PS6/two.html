@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="num">
+    <input type="submit" name="submit" id="sub" onclick="calc()">
+    <br>
+    <p id="count"></p>
+    <p id="odd"></p>
+    <p id="even"></p>
+    <p id="sum"></p>
+    <p id="large"></p>
+    <p id="small"></p>
+    <p id="reverse"></p>
+    <p id="pallindrome"></p>
+    <p id="fact"></p>
+
+</body>
+
+<script>
+    function calc() {
+       
+        var count,odd,even,sum,large,small,reverse,pallindrome,fact;
+
+        var elem = document.getElementById('num');
+        var x = document.getElementById('num').value;
+        //console.log(x);
+        
+        count = x.length;
+        document.getElementById('count').innerText = 'Count: ' + count;
+
+       var oddCount = 0;
+       var evenCount = 0;
+       var sum = 0;
+       var large = 0;
+       var min;
+       var j =0;
+       var pallindrome = "No";
+        
+       for(var i=0;i<count;i++) {
+                large = Math.max(Number(x[i]),Number(x[j]));
+                min = Math.min(Number(x[i]),Number(x[j]));
+                j++;
+
+            sum = sum + Number(x[i]);
+           
+            if(Number(x[i])%2===0) {
+                evenCount++;
+            }
+            else {
+                oddCount++;
+            }
+        
+        }
+        revString = "";
+        for(var k=count-1;k=>0;k--) {
+            revString += x[k];
+        }
+
+        if(revString == x)
+            pallindrome = "Yes";
+            
+        
+        document.getElementById('odd').innerText = 'Odd Count: ' + oddCount;
+        document.getElementById('even').innerText = 'Even Count: ' + evenCount;
+        document.getElementById('sum').innerText = 'Sum: ' + sum;
+        document.getElementById('large').innerText = 'Largest: ' + large;
+        document.getElementById('small').innerText = 'Smallest: ' + min;
+        document.getElementById('small').innerText = 'Reverse: ' + revString;
+        document.getElementById('small').innerText = 'Reverse: ' + revString;
+        document.getElementById('small').innerText = 'Pallindrome: ' + pallindrome;
+
+        var fact = factorial(Number(x))
+        console.log(fact)
+        
+            function factorial(y) {
+            if (x === 0) {
+                return 1;
+            }
+            else {
+                return x * factorial(x - 1);
+    }
+}
+
+
+
+
+    }
+</script>
+
+
+</html>
