@@ -1,6 +1,8 @@
+//Examples:
+
 function hello() {              //Defining A function
     console.log("Hello World")
-}  
+} 
 
 
 function sum() {     //functions with statements
@@ -8,7 +10,6 @@ function sum() {     //functions with statements
     let b = 50;
     console.log(a+b)
 }
-
 
 //calling functions
 
