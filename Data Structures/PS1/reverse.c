@@ -3,11 +3,11 @@
 
 int main() {
 
-    int num,i,rem;
+    int num,rem;
     int rev = 0;
 
     printf("Enter the Number: ");
-    scanf("%d",&num);
+    scanf("%d",&num);   
 
     while (num > 0) {
 

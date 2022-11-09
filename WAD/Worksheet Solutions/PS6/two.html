@@ -40,6 +40,7 @@
        var large = 0;
        var min;
        var j =0;
+       var revString = "";
        var pallindrome = "No";
         
        for(var i=0;i<count;i++) {
@@ -57,24 +58,23 @@
             }
         
         }
-        revString = "";
-        for(var k=count-1;k=>0;k--) {
+       /*  for(var k=count-1;k=>0;k--) {
             revString += x[k];
         }
 
-        if(revString == x)
+        if(revString == x) {
             pallindrome = "Yes";
-            
+        } */
         
         document.getElementById('odd').innerText = 'Odd Count: ' + oddCount;
         document.getElementById('even').innerText = 'Even Count: ' + evenCount;
         document.getElementById('sum').innerText = 'Sum: ' + sum;
         document.getElementById('large').innerText = 'Largest: ' + large;
         document.getElementById('small').innerText = 'Smallest: ' + min;
-        document.getElementById('small').innerText = 'Reverse: ' + revString;
-        document.getElementById('small').innerText = 'Reverse: ' + revString;
-        document.getElementById('small').innerText = 'Pallindrome: ' + pallindrome;
-
+       /* document.getElementById('reverse').innerText = 'Reverse: ' + revString;
+        document.getElementById('pallindrome').innerText = 'Pallindrome: ' + pallindrome; */
+ 
+        /* 
         var fact = factorial(Number(x))
         console.log(fact)
         
@@ -84,8 +84,8 @@
             }
             else {
                 return x * factorial(x - 1);
-    }
-}
+    } */
+
 
 
 
