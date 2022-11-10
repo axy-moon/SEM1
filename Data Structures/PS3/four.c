@@ -21,8 +21,8 @@ int main() {
             count++;
             continue;
              }
-        if(count>1) {
-            printf(" %c",str[i]);
+        if(count>=1) {
+            printf("  %c",str[i]);
             count=0;
         }
         else {

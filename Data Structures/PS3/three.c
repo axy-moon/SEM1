@@ -10,10 +10,11 @@ int main() {
     printf("Enter String: ");
     gets(str);
 
-    while(str[i]) {
+    for(int i=0;str[i]!='\0';i++) {
         ch = str[i];
-        printf("%c",toupper(ch));
-        i++;
+        ch = str[i] - 32;
+        //printf("%c",toupper(ch));
+        printf("%c",ch);
     }
 
 

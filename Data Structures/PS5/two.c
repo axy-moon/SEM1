@@ -1,7 +1,12 @@
 /*
 Corner Elements
 r = 4
-c = 3
+c = 3 - 1
+
+1st element = [0][0]
+2nd element = [0][c-1]
+3rd Element = [r-1][0]
+4th Element = [r-1][c-1]
 
 00 01 02
 10 11 12
@@ -38,5 +43,5 @@ int main() {
     }
 
     printf("Corner Elements: %d %d %d %d", twoDim[0][0],twoDim[0][col-1],twoDim[row-1][0],twoDim[row-1][col-1]);
-    printf("\nSum of the Corner Elements: %d", twoDim[0][0]+twoDim[0][col-1]+twoDim[row-1][0]+twoDim[row-1][col-1] );
+    printf("\nSum of the Corner Elements: %d", twoDim[0][0]+twoDim[0][col-1]+twoDim[row-1][0]+twoDim[row-1][col-1]);
 }

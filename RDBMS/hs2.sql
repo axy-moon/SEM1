@@ -30,12 +30,12 @@ insert into sale_order (order_no,order_date,client_number,salesman,dely_date,ord
 select * from client_master where Bal_Due=0;
 select * from client_master where Bal_Due>5000;
 select * from client_master where Bal_Due between 5000 and 20000;
-select full_name from client_master where city  like 'C%'  like 'D%';
+select full_name from client_master where city  like 'C%' or city  like 'D%';
 select full_name from client_master where pincode like '_____1';
 update client_master set city = 'JAIPUR' where client_number = 'C0004';
 select * from client_master where client_master.client_number in (select client_number from sale_order where sale_order.order_status='Cancelled');
 select * from client_master where city = 'MUMBAI';
 
-select full_name,city,pincode from client_master where client_master.client_number in (select client_number from sale_order where sale_order.order_no='O19003' or sale_order.order_no='O19002');
+select full_name,city,pincode from client_master where client_number in (select client_number from sale_order where order_no='O19003' or order_no='O19002');
 select full_name || ' lives in ' || city as address from client_master;
 select client_number,full_name,city,pincode from client_master where client_master.client_number in (select client_number from sale_order where sale_order.order_status='In process');

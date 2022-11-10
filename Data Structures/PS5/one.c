@@ -2,7 +2,7 @@
 
 int main() {
 
-    int m,n;
+    int m,n; //size of the matrix
 
     printf("Enter the no of rows: ");
     scanf("%d",&m);
@@ -24,8 +24,8 @@ int main() {
             
             if(sparseMatrix[r][c] == 0)
                 count++;
-            else
-                continue;
+/*           else
+                continue; */
         }
     }
 
