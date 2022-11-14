@@ -12,6 +12,7 @@
 </head>
 <body>
     <script src="index.js"></script>
+
     <nav>
         <h1>Payroll Calculator</h1>
     </nav>
@@ -19,11 +20,11 @@
     <section>
         <div class="container">
             <div class="form-group">
-                <form action="">
-                    <div class="horizontal">
+                <form action="" method="">
+                    <div class="horizontal" style="padding-top:40px;">
                     <div>
                         <p>Employee Name</p>
-                    <input type="text" name="employee" id"empName">
+                    <input type="text" name="employee" id="empName" required>
                     </div>
                     <div>
                         <p>Employee ID</p>
@@ -35,7 +36,7 @@
                 <div class="horizontal">
                     <div>
                         <p>Date of Birth</p>
-                    <input type="date" name="dob" id"dob">
+                    <input type="date" name="dob" id="dob">
                     </div>
                     <div>
                         <p>Date Joined</p>
@@ -44,26 +45,27 @@
                     </div>
                 </div>
 
-                <div class="horizontal">
+                <div class="single">
                     <div>
                         <p>Basic Pay</p>
                     <input type="number" name="basicPay" id="basicPay">
                     </div>
-                    <div>
-                        <p>HRA</p>
-                        
-                        <input type="text" name="" id="">
-                    </div>
                 </div>
+                <br>
                 <div class="horizontal">
-                    <p>Deductions: </p>
-                    <p>Net pay: </p>
-                    <p>Gross Pay: </p>
+                    <p id="hra">HRA: </p>
+                    <p id="ddc">Deductions: 0</p>
+                    <p id="netPay">Net pay: 0</p>
+                    <p id="gPay">Gross Pay: 0</p>
+                </div>
+                <div class="btn">
+                    <button type="button" onclick="calc()">Calculate</button>
                 </div>
                 </form>
             </div>
         </div>
     </section>
+
 </body>
 </html>
 

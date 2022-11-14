@@ -41,9 +41,29 @@ nav h1 {
 .horizontal {
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
 }
 
 .horizontal:last-child {
     padding-top: 100px;
+}
+
+.single {
+    display: block;
+    margin-left: 40px;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+button {
+    height: 48px;
+    width: 40%;
+    background-color: var(--primaryColor);
+    border: none;
+    border-radius: 5px;
 }
