@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with Name</title>
+</head>
+<body>
+    <script src="index.js"></script>
+
+    <h1>Play with Your Name</h1>
+
+    <div class="btn">
+        <button type="button" onclick="fname()">First Name</button> 
+        <input type="text" name="" id="fname" placeholder="First Name" style="display:none;">
+
+        <button type="button" onclick="lname()">Last Name</button>
+        <input type="text" name="" id="lname" placeholder="Last Name" style="display:none;">
+
+        <button type="button" onclick="yourName()">Your Name</button>
+        <p id="yourName"></p>
+        
+
+        <button type="button" onclick="greet()">Greet</button>
+        <p id="greet" style="font-size:50px;color: purple;"></p>
+        <button type="button" onclick="length()">Length</button>
+        <p id="len"></p>
+        <button type="button" onclick="reverse()">Reverse</button>
+        <p id="rev"></p>
+
+        <button type="button" onclick="capitalize()">Capitalize</button>
+        <p id="cap"></p>
+    </div>
+</body>
+</html>
