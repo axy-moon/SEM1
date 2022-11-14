@@ -19,7 +19,7 @@ int main() {
     for(int i=0;i<=len;i++) {
 
          
-         if((i+1)%4==0) {
+         if((i+1)%width==0) {
             printf("%c",str[i]);
             printf("\n");
         }

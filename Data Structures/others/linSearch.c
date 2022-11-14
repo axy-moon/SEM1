@@ -13,6 +13,8 @@ int main() {
 
     for(int i=0;i<len;i++) {
 
+        printf("%d\n",numArray[i]);
+
         if(numArray[i]==value) {
             printf("%d is present in the position %d",value,i+1);
             break;

@@ -10,8 +10,10 @@ void main () {
 
 
     if(n_of_calls>99 && n_of_calls<200) {
-        for(int i=0; i<n_of_calls;i++)
-            charge += 1;
+        for(int i=0; i<n_of_calls;i++) {
+             printf("%d\n",i);
+            charge += 1; 
+            }
     }
     else if(n_of_calls>199 && n_of_calls<300) {
         for(int j=0;j<n_of_calls;j++)

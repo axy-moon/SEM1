@@ -1,0 +1,49 @@
+:root {
+    --primaryColor: #6ec1e4;
+    --secondColor: #54595f;
+    --text-color: #FFF6FF;
+}
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+html {
+    background: url(./img/background.png);
+}
+
+body {
+    width: 90%;
+    margin:auto;
+}
+
+
+nav h1 {
+    font-family: 'Secular One', sans-serif;
+    color: var(--text-color);
+
+}
+
+.container {
+    border: 1px dashed var(--primaryColor);
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    height: 500px;
+    background: #fff;
+}
+
+.form-group input{
+    width: 280px;
+    height: 28px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.horizontal:last-child {
+    padding-top: 100px;
+}
