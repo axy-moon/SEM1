@@ -23,6 +23,11 @@ nav h1 {
 
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     border: 1px dashed var(--primaryColor);
     border-radius: 5px;
@@ -67,3 +72,26 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+.content {
+    margin: 80px;
+}
+
+.values {
+    display: flex;
+    justify-content: space-around;
+}
+.netPay {
+    border: 1px solid #0D4C92;
+    width: 50%;
+    height: 90px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.gpay {
+    border: 1px solid #0D4C92;
+    width: 50%;
+    padding-left: 10px;
+
+} 

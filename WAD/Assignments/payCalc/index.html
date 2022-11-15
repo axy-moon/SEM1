@@ -17,9 +17,9 @@
         <h1>Payroll Calculator</h1>
     </nav>
 
-    <section>
-        <div class="container">
-            <div class="form-group">
+    <section class="main">
+        <div class="container" id="container">
+            <div class="form-group" id="form">
                 <form action="" method="">
                     <div class="horizontal" style="padding-top:40px;">
                     <div>
@@ -53,16 +53,34 @@
                 </div>
                 <br>
                 <div class="horizontal">
-                    <p id="hra">HRA: </p>
+                   <!--  <p id="hra">HRA: </p>
                     <p id="ddc">Deductions: 0</p>
                     <p id="netPay">Net pay: 0</p>
-                    <p id="gPay">Gross Pay: 0</p>
+                    <p id="gPay">Gross Pay: 0</p> -->
                 </div>
                 <div class="btn">
                     <button type="button" onclick="calc()">Calculate</button>
                 </div>
                 </form>
+                
             </div>
+        </div>
+        <div class="container" id="result" style="display:none;">
+
+            <div class="content">
+                <div class="values">
+                    <p id="hra">HRA: </p>
+                    <p id="ddc">Deductions: </p>
+                </div>
+                <div style="display:flex; justify-content: space-around; margin-top: 60px;">
+                <div class="netPay">
+                <h3 id="netpay">Net Pay</h3>
+                </div>
+                <div class="gpay">
+                    <h3 id="gPay">Gross Pay</h3>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 
