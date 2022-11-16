@@ -37,7 +37,7 @@ function calc() {
         
 function isAlpha(inputtxt)
 {
- var letters = /^[A-Za-z]+$/;
+ var letters = /^[A-Za-z ]+$/;
  if(!inputtxt.match(letters))
      alert("Employee Name should contain only alphabets");  
 }
