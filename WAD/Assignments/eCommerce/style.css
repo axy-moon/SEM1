@@ -1,0 +1,157 @@
+body {
+    width: 90%;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eceff1;
+    margin-bottom: 10px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.nav-btns {
+    padding: 20px;
+}
+
+.nav-btns button {
+    font: 26px;
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    
+}
+.nav-btns button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+section {
+    height: 88vh;
+    background-color: #eceff1;
+    border-radius: 10px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    grid-gap: 20px ;
+    height: 88vh;
+    background-color: #eceff1;
+    border-radius: 10px;
+
+}
+
+.left {
+    text-align: center;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.left h1 {
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.first {
+    font-size: 36px;
+    padding: 0 40px 0 40px;
+
+}
+
+.second {
+    font-size: 32px;
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
+
+
+img {
+    filter: drop-shadow(8px 5px 3px rgb(33, 33, 33));
+}
+
+.main-img {
+    width: fit-content;
+    padding-top: 80px;
+}
+
+.right {
+    text-align: center;
+    margin: auto;
+    margin-right: 20px;
+
+}
+
+.right button {
+    font-size: 36px;
+    font-weight: 800;
+    border:none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.right i {
+    font-size: 30px;
+}
+
+.container {
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    
+}
+
+.container .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    padding-top: 120px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.container button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(30, 26, 26);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px ;
+}
+
+.login-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+
+.login-links a {
+    color: rgb(0, 123, 255);
+}
+
+
+.flex-inputs {
+    display: flex;
+    justify-content: space-between;
+}
