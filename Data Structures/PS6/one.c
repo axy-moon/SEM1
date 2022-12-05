@@ -2,7 +2,6 @@
 #include "stack.c"
 
 
-
 int main() {
 
     push(1);
@@ -13,19 +12,33 @@ int main() {
 
     show();
 
-    int count = 0;
+    int count,i;
     int arr[] = {6,3,4,1,2};
     int arrlen = sizeof(arr)/sizeof(arr[0]);
 
-    for(int i=0;i<arrlen;i++) {
+    i=0;
 
+    while(i<arrlen) {
+
+        
         if(data[top] == arr[i]) {
             count++;
             pop();
+            printf("%d",count);
+            continue;
         }
-       
+        else {
+            pop();
+            count++;
+            continue;
+        }
+
+        i++;
 
     }
+
+            printf("%d",count);
+
 
 
     return 0;
