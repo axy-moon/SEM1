@@ -12,34 +12,37 @@ int main() {
 
     show();
 
-    int count,i;
+    int count=0,i=0;
     int arr[] = {6,3,4,1,2};
     int arrlen = sizeof(arr)/sizeof(arr[0]);
 
-    i=0;
 
-    while(i<arrlen) {
-
-        
-        if(data[top] == arr[i]) {
-            count++;
-            pop();
-            printf("%d",count);
-            continue;
-        }
-        else {
-            pop();
-            count++;
-            continue;
-        }
-
-        i++;
-
+    if(isPresent(4)) {
+        printf("Present");
+    }
+    else {
+        printf("Not Present");
     }
 
-            printf("%d",count);
 
+/*      for(int j=0;j<arrlen;j++) {
+       count = 0;
+       
+       if(isPresent(arr[j])) {
+            
+            if(data[top]==arr[j]) {
+                count++;
+                pop();
+        }
 
+        else 
+            count=0;
+            printf("Element Not Present\n");
+        }
 
+        printf("No of Pop Count: %d ",count);
+
+} */
     return 0;
+
 }

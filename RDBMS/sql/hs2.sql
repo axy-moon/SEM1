@@ -13,13 +13,15 @@ insert into CLIENT_MASTER (client_number, full_name,city,pincode, bal_due) value
 
 
 
-create table sale_order(order_no varchar(10) primary key,
+create table sale_order(order_no varchar(10) primary key check(order_no like 'O%'),
                         order_date date,
                         client_number varchar(25) ,
                         salesman varchar(10),
                         dely_date DATE,
                         order_status varchar(25),
-                        foreign KEY(client_number) REFERENCES client_master(client_number));
+                        foreign KEY(client_number) REFERENCES client_master(client_number),
+                        foreign key(salesman) references salesman_master(salesman_no)
+                        );
                         
 insert into sale_order (order_no,order_date,client_number,salesman,dely_date,order_status) values ('O19001','12-Jan-13','C0001','S00001','20-Jan-13','In process');                       
 insert into sale_order (order_no,order_date,client_number,salesman,dely_date,order_status) values ('O19002','25-Jan-13','C0002','S00002','27-Jan-13','Cancelled');                       

@@ -32,4 +32,4 @@ insert into employee (emp_no,fname,lname,job_name,MGR,DOB,hireDate,salary,comm) 
 commit;
 SELECT * FROM employee;
 select * from employee where salary > 3000 and DOB between '1-01-1965' and '1-12-1975';
-select fname,lname from employee where salary >  
+select fname,lname from employee where salary
