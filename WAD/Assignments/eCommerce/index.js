@@ -1,11 +1,19 @@
 function signup() {
+    alpha = /[A-Za-z]/
+
     username = document.getElementById('userbox').value;
     password = document.getElementById('passbox').value;
 
-    sessionStorage.setItem("username",username);
-    sessionStorage.setItem("password",password);
 
-    window.location.href = "login.html";
+    if(!username.match(alpha)){
+        alert("Only characters")
+    }
+    else {
+        sessionStorage.setItem("username",username);
+        sessionStorage.setItem("password",password);
+        window.location.href = "login.html";
+    }
+
 }
 
 /* function welcome() {
@@ -18,6 +26,7 @@ function signup() {
 function login() {
     u = document.getElementById('ubox').value;
     p = document.getElementById('pbox').value;
+    
     if (u == sessionStorage.getItem('username')) {
         if(p == sessionStorage.getItem('password')) {
             window.location.href = "welcome.html"
