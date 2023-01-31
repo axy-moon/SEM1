@@ -44,6 +44,3 @@ int main()
 
 	return 0;
 }
-
-dynamicsorting.c
-Displaying dynamicsorting.c.
