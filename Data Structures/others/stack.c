@@ -1,16 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include <stdbool.h>
 #define size 5
 
-int data[size], top=-1;
+int data[size] = {6,4,3,2,1}, arr[size] = {6,3,4,1,2} , top=-1;
 
 void pop();
 void push();
 void show();
+void isPresent();
 
 int main() {
 
-    int choice;
+    /* int choice;
 
     while(1) {
         printf("\n1.DISPLAY STACK\n");
@@ -33,18 +35,20 @@ int main() {
             default: printf("Invalid Choice\n");
         }
 
-    }
+    } */
 
 }
 
-void pop() {
+int pop() {
 
     if(top==-1)
         printf("Stack is Empty");
     else {
-        printf("Popped Element: %d: \n",data[top]);
+        // printf("Popped Element: %d: \n",data[top]);
+        int e = data[top];
         top = top - 1;
     }
+    return e
 }
 
 void push() {
@@ -71,4 +75,10 @@ void show() {
         }
     }
     printf("\n\n");
+}
+
+bool isPresent(int x) {
+    while(data[top])
+        if(data[top]==x)
+            return true;
 }
